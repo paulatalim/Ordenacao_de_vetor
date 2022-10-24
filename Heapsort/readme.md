@@ -1,6 +1,7 @@
 # HeapSort
 
 ## Funcionamento
+Para a explicação do funcionamento desse metodo de ordenando, se foi separado um video do youtube elaborado por 
 
 ## Funcionalidades
 Nesse diretório há códigos, os quais executam o heapsort, ordenando vários tipos de vetor em 3 linguagens de programação diferentes.
