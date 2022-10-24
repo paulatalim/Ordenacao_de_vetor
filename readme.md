@@ -1,10 +1,10 @@
 # Ordenação de vetores
 
 ## Metodos disponíveis
-- Bubllesort
-- Insertionsort
-- Selectionsort
-- Heapsort
-- Quicksort
-- Mergesort
-- Counting sort
+- [Bubllesort](./Bubblesort)
+- [Insertionsort](./Insertionsort)
+- [Selectionsort](./Selectionsort)
+- [Heapsort](./Heapsort)
+- [Quicksort](./Quicksort)
+- [Mergesort](./Mergesort)
+- [Counting sort](./Coutingsort)
