@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class heapSort {
+public class heapInt {
     /*
 	 * Descricao: essa funcao troca dois elementos de um vetor double
 	 * Parametros: um vetor double (vetor que tera os 

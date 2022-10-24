@@ -1,4 +1,4 @@
-public class insertion {
+public class insertionInt {
     /* 
 	 * Descricao: essa funcao ordena um vetor de string 
 	 * em ordem alfabetica com o metodo insertionsort
