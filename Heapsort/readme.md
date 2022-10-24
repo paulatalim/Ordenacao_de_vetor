@@ -1,15 +1,19 @@
 # HeapSort
 
-## Sobre
-
 ## Funcionamento
 
 ## Modo desenvolvedor
-Nesse repositorio há disponivel 3 códigos, os quais executam o heap sort, porém em 3 linguagens de programacao diferentes:
+Nessa pasta há códigos, os quais executam o heapsort, em 3 linguagens de programacao diferentes e ordenando diferentes tipo de vetores:
 
+# Ordenando vetor de inteiros
 - [C](heapSort.c)
 - [C++](heapSort.cpp)
-- [Java](heapSort.java)
+- [Java](./java/heapInt.java)
+
+# Ordenando vetor de Strings
+- C (em breve)
+- C++ (em breve)
+- [Java](./java/heapString.java)
 
 Sendo assim, os 3 códigos possuem os mesmo resultados, podendo ser executado do jeito que preferir.
 
