@@ -1,4 +1,4 @@
-public class selection {
+public class selectionInt {
     /*
 	 * Descricao: essa funcao troca dois elementos de um vetor double
 	 * Parametros: um vetor double (vetor que tera os 

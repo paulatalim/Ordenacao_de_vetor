@@ -1,4 +1,4 @@
-public class merge {
+public class mergeInt {
     /*
 	 * Descricao: apartir de um vetor de string, essa 
 	 * funcao subdivide o vetor em outros dois e intercala 
