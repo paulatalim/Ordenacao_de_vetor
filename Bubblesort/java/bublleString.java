@@ -1,7 +1,7 @@
 public class bublleString {
     /*
-	 * Descricao: essa funcao troca dois elementos de um vetor double
-	 * Parametros: um vetor double (vetor que tera os 
+	 * Descricao: essa funcao troca dois elementos de um vetor com strings
+	 * Parametros: um vetor de strings (vetor que tera os 
 	 * elementos trocados) e dois inteiros (indice dos 
 	 * dois elementos a serem trocados)
 	 */

@@ -1,7 +1,7 @@
 public class bublleInt {
     /*
-	 * Descricao: essa funcao troca dois elementos de um vetor double
-	 * Parametros: um vetor double (vetor que tera os 
+	 * Descricao: essa funcao troca dois elementos de um vetor de inteiros
+	 * Parametros: um vetor de inteiros (vetor que tera os 
 	 * elementos trocados) e dois inteiros (indice dos 
 	 * dois elementos a serem trocados)
 	 */
@@ -12,10 +12,10 @@ public class bublleInt {
 	}
     
     /* 
-	 * Descricao: essa funcao ordena um vetor de string 
-	 * em ordem alfabetica com o metodo bubblesort
+	 * Descricao: essa funcao ordena um vetor de inteiros
+	 * em ordem crescente com o metodo bubblesort
 	 * 
-	 * Parametro: um vetor de string (vetor a ser ordenado)
+	 * Parametro: um vetor de inteiros (vetor a ser ordenado)
 	 */
 	public static void bubblesort (int[] vet) {
 		for (int i = vet.length-1; i > 0; i--) {

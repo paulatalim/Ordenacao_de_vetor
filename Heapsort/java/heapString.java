@@ -1,4 +1,16 @@
 public class heapString {
+	/*
+	 * Descricao: essa funcao troca dois elementos de um vetor com strings
+	 * Parametros: um vetor de strings (vetor que tera os 
+	 * elementos trocados) e dois inteiros (indice dos 
+	 * dois elementos a serem trocados)
+	 */
+	public static void swap (String[] vet, int i, int j) {
+		String aux = vet[i];
+		vet[i] = vet[j];
+		vet[j] = aux;
+	}
+
     /* 
 	 * Descricao: essa funcao calcula o indice o elemento pai no heap
 	 * Parametro: um inteiro (indice do elemento filho)
