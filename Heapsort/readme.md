@@ -16,4 +16,4 @@ Nesse diretório há códigos, os quais executam o heapsort, ordenando vários t
 - [Java](./java/heapString.java)
 
 ## Modo desenvolvedor
-Para a execussão dos códigos é aconselhável que os códigos em [C](heapSort.c) e [C++](heapSort.cpp) sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as exetensoes adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).
+Para a execussão dos códigos é aconselhável que os códigos em [C](heapSort.c) e [C++](heapSort.cpp) sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as exetensoes adequadas instaladas) e os códigos em [Java](./java/readme.md) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).
