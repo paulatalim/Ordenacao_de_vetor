@@ -1,4 +1,4 @@
-public class countingCrescente {
+public class counting {
 	/*
 	 * Descricao: essa funcao verifica e retorna o maior
 	 * elemento de um vetor de inteiros
