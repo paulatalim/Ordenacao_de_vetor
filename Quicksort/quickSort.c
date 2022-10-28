@@ -2,14 +2,25 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* Trocar valores */
+/*
+Descricao: essa funcao troca dois elementos de um vetor double
+Parametros: um vetor double (vetor que tera os 
+elementos trocados) e dois inteiros (indice dos 
+dois elementos a serem trocados)
+*/
 void swap (int vet[], int i, int j) {
     int aux = vet[i];
     vet[i] = vet[j];
     vet[j] = aux;
 }
 
-/*Ordena com quick sort*/
+/* 
+Descricao: essa funcao ordena um vetor de inteiros 
+em ordem crescente com o metodo quicksort
+
+Parametro: um vetor de inteiros (vetor a ser ordenado) 
+e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
+*/
 void quicksort (int vet[], int esq, int dir) {
     int i, j, posicao;
     int pivo;
