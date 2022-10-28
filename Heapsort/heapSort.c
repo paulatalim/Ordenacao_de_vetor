@@ -2,34 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* Trocar valores */
+/*
+	 * Descricao: essa funcao troca dois elementos de um vetor double
+	 * Parametros: um vetor double (vetor que tera os 
+	 * elementos trocados) e dois inteiros (indice dos 
+	 * dois elementos a serem trocados)
+	 */
 void swap (int vet[], int i, int j) {
     int aux = vet[i];
     vet[i] = vet[j];
     vet[j] = aux;
-}
-
-/*Exibir vetor*/
-void exibir_vetor (int vet[], int n) {
-    //Inicio do vetor
-    printf("{");
-    
-    for (int i = 0; i < n-1; i ++) {
-        //Numeros no vetor
-        printf("%d, ", vet[i]);
-    }
-    
-    //Terminando o vetor
-    printf("%d}", vet[n-1]);
-}
-
-void preencher_vetor (int vet[], int tam) {
-    srand(time(NULL));
-    
-    //Preenchendo vetor com numeros aleatorios
-    for (int i = 0; i < tam; i ++) {
-        vet[i] = rand() % 10;
-    }
 }
 
 int indice_pai (int filho) {
@@ -98,28 +80,4 @@ void heapSort (int vet[], int n) {
         swap(vet, 0, tam--);
         reconstruir(vet, tam);
     }
-}
-
-int main () {
-    int n = 5;
-    int vet[n];
-    
-    printf ("*** ORDENANDO VETOR COM HEAPSORT ***\n");
-
-    //Preenche o vetor com novos numeros
-    preencher_vetor (vet, n);
-
-    //Exibe o vetor desordenado
-    printf("Numeros no vetor: ");
-    exibir_vetor(vet, n);
-    
-    //Ordena vetor com HeapSort
-    heapSort(vet, n);
-
-    //Exibe o vetor ordenado
-    printf("\nVetor ordenado com Heapsort: ");
-    exibir_vetor(vet, n);
-
-    printf ("\n\n");
-    return 0;
 }
