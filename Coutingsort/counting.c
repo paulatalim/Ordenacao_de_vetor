@@ -2,6 +2,15 @@
 #include <stdlib.h>
 #include <string.h>
 
+/*
+* Descricao: essa funcao verifica e retorna o maior
+* elemento de um vetor de inteiros
+*
+* Parametro: vetor de inteiros (vetor a ser verificado) 
+* e um inteiro (tamanho do vetor)
+*
+* Retorno: um inteiro (maior elemento do vetor)
+*/
 int getMaior (int vet[], int n) {
     int maior = vet[0];
 
@@ -14,6 +23,13 @@ int getMaior (int vet[], int n) {
     return maior;
 }
 
+/* 
+* Descricao: essa funcao ordena um vetor de inteiros 
+* em ordem crescente com o metodo counting sort
+* 
+* Parametro: um vetor de inteiros (vetor a ser ordenado) 
+* e um inteiro (tamanho do vetor)
+*/
 void countingsort (int vet[], int n) {
     int tamanho_count = getMaior(vet, n) + 1;
 
