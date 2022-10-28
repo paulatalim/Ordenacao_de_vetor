@@ -4,7 +4,7 @@
 -->
 
 ## Funcionalidades
-Nesse diretório há códigos, os quais executam o Counting sort, ordenando vetor em ordem crescente e descrescente de numeros inteiros em 3 linguagens de programação diferentes(C, C++ e Java).
+Nesse diretório há códigos, os quais executam o Counting sort, ordenando vetor em ordem crescente de numeros inteiros em 3 linguagens de programação diferentes.
 
 ### Ordenando em ordem crescente
 - [C](counting.c)
