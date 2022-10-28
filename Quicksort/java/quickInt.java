@@ -20,7 +20,7 @@ public class quickInt {
 	 * Parametro: um vetor de inteiros (vetor a ser ordenado) 
 	 * e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 	 */
-    public static void quicksort (int[] vet, int esq, int dir) {
+	public static void quicksort (int[] vet, int esq, int dir) {
 		int i, j, posicao;
 		int pivo;
 		
