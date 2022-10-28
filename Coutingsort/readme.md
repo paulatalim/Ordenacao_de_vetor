@@ -6,7 +6,7 @@
 ## Funcionalidades
 Nesse diretório há códigos, os quais executam o Counting sort, ordenando vetor de inteiros em 3 linguagens de programação diferentes.
 
-- [C] (em breve)
+- [C](counting.c)
 - C++ (em breve)
 - [Java](counting.java)
 
