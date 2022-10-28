@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <iostream>
 
 int getMaior (int vet[], int n) {
     int maior = vet[0];

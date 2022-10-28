@@ -1,4 +1,10 @@
 public class counting {
+	/*
+	 * Descricao: essa funcao verifica e retorna o maior
+	 * elemento de um vetor de inteiros
+	 * Parametro: vetor de inteiros (vetor a ser verificado)
+	 * Retorno: um inteiro (maior elemento do vetor)
+	 */
     public static int getMaior (int[] vet) {
 		int maior = vet[0];
 
@@ -11,6 +17,12 @@ public class counting {
 		return maior;
 	}
 
+	/* 
+	 * Descricao: essa funcao ordena um vetor de inteiros 
+	 * em ordem crescente com o metodo counting sort
+	 * 
+	 * Parametro: um vetor de inteiros (vetor a ser ordenado)
+	 */
 	public static void countingsort (int[] vet) {
 		//Array para contar o numero de ocorrencias de cada elemento
 		int[] count = new int[getMaior(vet) + 1];
