@@ -11,14 +11,14 @@ public class quickString {
 		vet[j] = aux;
 	}
 
-    /* 
+	/* 
 	 * Descricao: essa funcao ordena um vetor de string 
 	 * em ordem alfabetica com o metodo quicksort
 	 * 
 	 * Parametro: um vetor de string (vetor a ser ordenado) 
 	 * e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 	 */
-    public static void quicksort (String[] vet, int esq, int dir) {
+	public static void quicksort (String[] vet, int esq, int dir) {
 		int i, j, posicao;
 		String pivo;
 
