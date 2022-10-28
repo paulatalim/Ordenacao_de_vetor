@@ -16,27 +16,27 @@ int getMaior (int vet[], int n) {
 
 void countingsort (int vet[], int n) {
     int tamanho_count = getMaior(vet, n) + 1;
-    
+
     //Array para contar o numero de ocorrencias de cada elemento
     int count[tamanho_count];
     int ordenado[n];
     
-    //Inicializar cada posicao do array de contagem
+    //Zera os elementos do vetor de contagem
     for (int i = 0; i < tamanho_count; i++) {
         count[i] = 0;
     }
     
-    //Agora, o count[i] contem o numero de elemento iguais a i
+    //Contagem de elementos iguais a i no count[i]
     for (int i = 0; i < n; i++) {
         count[vet[i]]++;
     }
     
-    //Agora, o count[i] contem o numero de elemento menores ou iguais a i
+    //Ajusta count[i] para possuir elementos iguais ou menores a i
     for (int i = 1; i < tamanho_count; i++) {
         count[i] += count[i - 1];
     }
     
-    //Ordenando
+    //Ordena o vetor
     for (int i = n - 1; i >= 0; i--) {
         ordenado[count[vet[i]]-1] = vet[i];
         count[vet[i]]--;
