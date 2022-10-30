@@ -1,9 +1,9 @@
 public class insertionInt {
     /* 
-	 * Descricao: essa funcao ordena um vetor de string 
-	 * em ordem alfabetica com o metodo insertionsort
+	 * Descricao: essa funcao ordena um vetor de inteiros
+	 * em ordem crescente com o metodo insertionsort
 	 * 
-	 * Parametro: um vetor de string (vetor a ser ordenado)
+	 * Parametro: um vetor de inteiros (vetor a ser ordenado)
 	 */
 	public static void insertionsort (int[] vet) {
 		for (int i = 1; i < vet.length; i++) {
