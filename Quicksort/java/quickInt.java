@@ -2,8 +2,8 @@ import java.util.Random;
 
 public class quickInt {
 	/*
-	 * Descricao: essa funcao troca dois elementos de um vetor double
-	 * Parametros: um vetor double (vetor que tera os 
+	 * Descricao: essa funcao troca dois elementos de um vetor de inteiros
+	 * Parametros: um vetor de inteiros (vetor que tera os 
 	 * elementos trocados) e dois inteiros (indice dos 
 	 * dois elementos a serem trocados)
 	 */

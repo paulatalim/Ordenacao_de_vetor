@@ -50,12 +50,16 @@ public class mergeString {
 	 * Parametro: um vetor de string (vetor a ser ordenado)
 	 * e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 	 */
-	public static void mergesort (String[] vet, int esq, int dir) {
+	public static void merge (String[] vet, int esq, int dir) {
 		if (esq < dir) {
 			int meio = (esq + dir) /2;
-			mergesort(vet, esq, meio);
-			mergesort(vet, meio + 1, dir);
+			merge(vet, esq, meio);
+			merge(vet, meio + 1, dir);
 			intercalar(vet, esq, meio, dir);
 		}
+	}
+
+	public static void mergesort (String[] vet) {
+		merge(vet, 0, vet.length - 1);
 	}
 }
