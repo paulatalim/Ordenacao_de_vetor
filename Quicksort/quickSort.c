@@ -55,11 +55,11 @@ void quick (int vet[], int esq, int dir) {
 }
 
 /*
-* Descricao: essa funcao chama pela funcao quick 
-* para ordena o vetor em ordem crescente, possuindo 
-* argumentos mais simplificados
-* 
-* Parametro: um vetor de inteiros (vetor a ser ordenado) 
+Descricao: esse procedimento chama pelo procedimento quick 
+para ordena o vetor em ordem crescente, possuindo 
+argumentos mais simplificados
+
+Parametro: um vetor de inteiros (vetor a ser ordenado) 
 e um inteiro (quantidade de numeros validos dentro do vetor)
 */
 void quicksort (int vet[], int n) {
