@@ -14,13 +14,13 @@ void swap (int vet[], int i, int j) {
 }
 
 /* 
-Descricao: essa funcao ordena um vetor de inteiros 
+Descricao: esse procedimento ordena um vetor de inteiros 
 em ordem crescente com o metodo quicksort
 
 Parametro: um vetor de inteiros (vetor a ser ordenado) 
 e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 */
-void quicksort (int vet[], int esq, int dir) {
+void quick (int vet[], int esq, int dir) {
     int i, j, posicao;
     int pivo;
     i = esq;
@@ -46,10 +46,22 @@ void quicksort (int vet[], int esq, int dir) {
     }
     
     if (esq < j) {
-        quicksort(vet, esq, j);
+        quick (vet, esq, j);
     }
 
     if (i < dir) {
-        quicksort(vet, i, dir);
+        quick (vet, i, dir);
     }
+}
+
+/*
+* Descricao: essa funcao chama pela funcao quick 
+* para ordena o vetor em ordem crescente, possuindo 
+* argumentos mais simplificados
+* 
+* Parametro: um vetor de inteiros (vetor a ser ordenado) 
+e um inteiro (quantidade de numeros validos dentro do vetor)
+*/
+void quicksort (int vet[], int n) {
+    quick(vet, 0, n-1);
 }

@@ -18,7 +18,7 @@ public class quickString {
 	 * Parametro: um vetor de string (vetor a ser ordenado) 
 	 * e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 	 */
-	public static void quicksort (String[] vet, int esq, int dir) {
+	public static void quick (String[] vet, int esq, int dir) {
 		int i, j, posicao;
 		String pivo;
 
@@ -50,12 +50,23 @@ public class quickString {
 		//Dividindo para conquistar
 		//Chamada recursiva com a primeira metade do vetor
 		if (esq < j) {
-			quicksort(vet, esq, j);
+			quick(vet, esq, j);
 		}
 
 		//Chamada recursiva com a segunda metade do vetor
 		if (i < dir) {
-			quicksort(vet, i, dir);
+			quick(vet, i, dir);
 		}
+	}
+
+	/*
+	* Descricao: essa funcao chama pela funcao quick 
+	* para ordena o vetor em ordem alfabetica, possuindo 
+	* argumentos mais simplificados
+	* 
+	* Parametro: um vetor de string (vetor a ser ordenado)
+	*/
+	public static void quicksort (String[] vet) {
+		quick (vet, 0, vet.length-1);
 	}
 }

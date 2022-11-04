@@ -59,6 +59,13 @@ public class mergeString {
 		}
 	}
 
+	/*
+	 * Descricao: essa funcao chama pela funcao merge 
+	 * para ordena o vetor em ordem alfabetica, possuindo 
+	 * argumentos mais simplificados
+	 * 
+	 * Parametro: um vetor de string (vetor a ser ordenado)
+	 */
 	public static void mergesort (String[] vet) {
 		merge(vet, 0, vet.length - 1);
 	}

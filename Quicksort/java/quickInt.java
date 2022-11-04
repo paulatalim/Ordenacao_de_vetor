@@ -20,7 +20,7 @@ public class quickInt {
 	 * Parametro: um vetor de inteiros (vetor a ser ordenado) 
 	 * e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 	 */
-	public static void quicksort (int[] vet, int esq, int dir) {
+	public static void quick (int[] vet, int esq, int dir) {
 		int i, j, posicao;
 		int pivo;
 		
@@ -47,11 +47,22 @@ public class quickInt {
 		}
 		
 		if (esq < j) {
-			quicksort(vet, esq, j);
+			quick (vet, esq, j);
 		}
 
 		if (i < dir) {
-			quicksort(vet, i, dir);
+			quick (vet, i, dir);
 		}
+	}
+
+	/*
+	* Descricao: essa funcao chama pela funcao quick 
+	* para ordena o vetor em ordem crescente, possuindo 
+	* argumentos mais simplificados
+	* 
+	* Parametro: um vetor de inteiros (vetor a ser ordenado) 
+	*/
+	public static void quicksort (int[] vet) {
+		quick (vet, 0, vet.length-1);
 	}
 }
