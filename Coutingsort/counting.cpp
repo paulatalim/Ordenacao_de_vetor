@@ -22,7 +22,7 @@ int getMaior (int vet[], int n) {
 }
 
 /* 
-Descricao: essa funcao ordena um vetor de inteiros 
+Descricao: esse procedimento ordena um vetor de inteiros 
 em ordem crescente com o metodo counting sort
 
 Parametro: um vetor de inteiros (vetor a ser ordenado) 

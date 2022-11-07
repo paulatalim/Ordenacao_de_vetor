@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /*
-* Descricao: essa funcao troca dois elementos de um vetor de inteiros
-* Parametros: um vetor de inteiros (vetor que tera os 
-* elementos trocados) e dois inteiros (indice dos 
-* dois elementos a serem trocados)
+Descricao: esse procedimento troca dois elementos de um vetor de inteiros
+Parametros: um vetor de inteiros (vetor que tera os 
+elementos trocados) e dois inteiros (indice dos 
+dois elementos a serem trocados)
 */
 void swap (int vet[], int i, int j) {
     int aux = vet[i];
@@ -14,11 +14,11 @@ void swap (int vet[], int i, int j) {
 }
 
 /* 
-* Descricao: essa funcao ordena um vetor de inteiros
-* em ordem crescente com o metodo bubblesort
-* 
-* Parametro: um vetor de inteiros (vetor a ser ordenado) 
-* e um inteiro (tamanho do vetor)
+Descricao: esse procedimento ordena um vetor de inteiros
+em ordem crescente com o metodo bubblesort
+
+Parametro: um vetor de inteiros (vetor a ser ordenado) 
+e um inteiro (tamanho do vetor)
 */
 void bubblesort (int vet[], int n) {
     for (int i = n-1; i > 0; i--) {

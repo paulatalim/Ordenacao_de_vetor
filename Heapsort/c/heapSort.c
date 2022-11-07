@@ -1,12 +1,13 @@
-#include <iostream>
-
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /*
-* Descricao: essa funcao troca dois elementos de um vetor
-* Parametros: um vetor de inteiros (vetor que tera os 
-* elementos trocados) e dois inteiros (indice dos 
-* dois elementos a serem trocados)
+Descricao: esse procedimento troca dois elementos de um vetor
+
+Parametros: um vetor de inteiros (vetor que tera os 
+elementos trocados) e dois inteiros (indice dos 
+dois elementos a serem trocados)
 */
 void swap (int vet[], int i, int j) {
     int aux = vet[i];
@@ -15,9 +16,9 @@ void swap (int vet[], int i, int j) {
 }
 
 /* 
-* Descricao: essa funcao calcula o indice o elemento pai no heap
-* Parametro: um inteiro (indice do elemento filho)
-* Retorno: um inteiro (indice do elemento pai)
+Descricao: essa funcao calcula o indice o elemento pai no heap
+Parametro: um inteiro (indice do elemento filho)
+Retorno: um inteiro (indice do elemento pai)
 */
 int indice_pai (int filho) {
     int flag = filho;
@@ -31,10 +32,10 @@ int indice_pai (int filho) {
 }
 
 /* 
-* Descricao: essa funcao constroi o heap de um vetor de inteiros
-* 
-* Parametros: um vetor de inteiros (vetor a ser construido 
-* a arvore heap) e um inteiro (tamanho valido do vetor)
+Descricao: esse procedimento constroi o heap de um vetor de inteiros
+
+Parametros: um vetor de inteiros (vetor a ser construido 
+a arvore heap) e um inteiro (tamanho valido do vetor)
 */
 void construir (int vet[], int tam) {
     int indice = indice_pai(tam);
@@ -54,11 +55,11 @@ void construir (int vet[], int tam) {
 }
 
 /*
-* Descricao: essa funcao reconstroi um vetor 
-* de numeros inteiros com a arvore heap ja construida 
-* 
-* Parametros: vetor de inteiros (vetor a ser reconstruido) 
-* e um inteiro (tamanho valido do vetor)
+Descricao: esse procedimento reconstroi um vetor 
+de numeros inteiros com a arvore heap ja construida 
+
+Parametros: vetor de inteiros (vetor a ser reconstruido) 
+e um inteiro (tamanho valido do vetor)
 */
 void reconstruir (int vet[], int tam) {
     int filho;
@@ -85,10 +86,10 @@ void reconstruir (int vet[], int tam) {
 }
 
 /* 
-* Descricao: essa funcao ordena um vetor com numeros 
-* inteiros em ordem crescente com o metodo HeapSort
-* 
-* Parametro: um vetor de inteiros (vetor a ser ordenado)
+Descricao: esse procedimento ordena um vetor com numeros 
+inteiros em ordem crescente com o metodo HeapSort
+
+Parametro: um vetor de inteiros (vetor a ser ordenado)
 */
 void heapSort (int vet[], int n) {
     int tam;

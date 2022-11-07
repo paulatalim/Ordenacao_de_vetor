@@ -9,12 +9,11 @@ Para a explicação do funcionamento desse metodo de ordenando, se foi separado 
 Nesse diretório há códigos, os quais executam o heapsort, ordenando vários tipos de vetor em 3 linguagens de programação diferentes.
 
 ### Ordenando vetor de inteiros
-- [C](heapSort.c)
-- [C++](heapSort.cpp)
+- [C](./c/heapSort.c)
+- [C++](./cpp/heapSort.cpp)
 - [Java](./java/heapInt.java)
 
 ### Ordenando vetor de Strings
-- C (em breve)
 - C++ (em breve)
 - [Java](./java/heapString.java)
 

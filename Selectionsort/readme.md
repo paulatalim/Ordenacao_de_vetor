@@ -12,7 +12,6 @@ Nesse diretório há códigos, os quais executam o selectionsort, ordenando vár
 - [Java](./java/selectionInt.java)
 
 ### Ordenando vetor de Strings
-- C (em breve)
 - C++ (em breve)
 - [Java](./java/selectionString.java)
 

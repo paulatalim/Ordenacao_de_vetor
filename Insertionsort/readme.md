@@ -12,7 +12,6 @@ Nesse diretório há códigos, os quais executam o insertionsort, ordenando vár
 - [Java](./java/insertionInt.java)
 
 ### Ordenando vetor de Strings
-- C (em breve)
 - C++ (em breve)
 - [Java](./java/insertionString.java)
 
