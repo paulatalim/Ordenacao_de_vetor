@@ -81,7 +81,7 @@ public class heapInt {
 		}
 	}
 
-    /* 
+	/* 
 	 * Descricao: essa funcao ordena um vetor com numeros 
 	 * do tipo inteiro em ordem crescente com o metodo HeapSort
 	 * 
