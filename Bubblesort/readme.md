@@ -6,7 +6,7 @@
 ## Funcionalidades
 Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários tipos de vetor em 3 linguagens de programação diferentes.
 
-### **Ordenando vetor de inteiros**
+### Ordenando vetor de inteiros
 #### *Ordem crescente*
 - [C](./c/bubbleIntCrescente.c)
 - [C++](./cpp/bubbleInt.cpp)
@@ -17,7 +17,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 - C++ (em breve)
 - Java (em breve)
 
-### **Ordenando vetor Float**
+### Ordenando vetor Float
 #### Ordem crescente
 - C (em breve)
 - C++ (em breve)
@@ -28,7 +28,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 - C++ (em breve)
 - Java (em breve)
 
-### **Ordenando vetor Double**
+### Ordenando vetor Double
 #### Ordem crescente
 - C (em breve)
 - C++ (em breve)
@@ -39,7 +39,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 - C++ (em breve)
 - Java (em breve)
 
-### **Ordenando vetor de caracteres**
+### Ordenando vetor de caracteres
 #### Ordem crescente
 - C (em breve)
 - C++ (em breve)
@@ -50,7 +50,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 - C++ (em breve)
 - Java (em breve)
 
-### **Ordenando vetor de Strings**
+### Ordenando vetor de Strings
 #### Ordem crescente
 - C++ (em breve)
 - [Java](./java/bublleString.java)
