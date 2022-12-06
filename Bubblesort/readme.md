@@ -8,12 +8,12 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 
 ### **Ordenando vetor de inteiros**
 #### Ordem crescente
-- [C](./c/bubbleInt.c)
+- [C](./c/bubbleIntCrescente.c)
 - [C++](./cpp/bubbleInt.cpp)
 - [Java](./java/bublleInt.java)
 
 #### Ordem decrescente
-- C (em breve)
+- [C](./c/bubbleIntDecrescente.c)
 - C++ (em breve)
 - Java (em breve)
 
