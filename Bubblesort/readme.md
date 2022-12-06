@@ -7,12 +7,12 @@
 Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários tipos de vetor em 3 linguagens de programação diferentes.
 
 ### **Ordenando vetor de inteiros**
-#### Ordem crescente
+#### *Ordem crescente*
 - [C](./c/bubbleIntCrescente.c)
 - [C++](./cpp/bubbleInt.cpp)
 - [Java](./java/bublleInt.java)
 
-#### Ordem decrescente
+#### *Ordem decrescente*
 - [C](./c/bubbleIntDecrescente.c)
 - C++ (em breve)
 - Java (em breve)
