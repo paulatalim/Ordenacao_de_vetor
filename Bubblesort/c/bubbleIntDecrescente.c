@@ -15,7 +15,7 @@ void swap (int vet[], int i, int j) {
 
 /* 
 Descricao: esse procedimento ordena um vetor de inteiros
-em ordem crescente com o metodo bubblesort
+em ordem decrescente com o metodo bubblesort
 
 Parametro: um vetor de inteiros (vetor a ser ordenado) 
 e um inteiro (tamanho do vetor)
