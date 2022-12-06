@@ -18,44 +18,44 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 - Java (em breve)
 
 ### Ordenando vetor Float
-#### Ordem crescente
+#### *Ordem crescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
-#### Ordem decrescente
+#### *Ordem decrescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
 ### Ordenando vetor Double
-#### Ordem crescente
+#### *Ordem crescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
-#### Ordem decrescente
+#### *Ordem decrescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
 ### Ordenando vetor de caracteres
-#### Ordem crescente
+#### *Ordem crescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
-#### Ordem decrescente
+#### *Ordem decrescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
 ### Ordenando vetor de Strings
-#### Ordem crescente
+#### *Ordem crescente*
 - C++ (em breve)
 - [Java](./java/bublleString.java)
 
-#### Ordem decrescente
+#### *Ordem decrescente*
 - C++ (em breve)
 - Java (em breve)
 
