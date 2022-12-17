@@ -8,63 +8,73 @@ Para a explicação do funcionamento desse metodo de ordenando, se foi separado 
 ## Funcionalidades
 Nesse diretório há códigos, os quais executam o heapsort, ordenando vários tipos de vetor em 3 linguagens de programação diferentes.
 
-### Ordenando vetor de inteiros
+<details>
+<summary>Ordenando vetor de inteiros</summary>
 
-#### *Ordem crescente*
+### *Ordem crescente*
 - [C](./c/heapSort.c)
 - [C++](./cpp/heapSort.cpp)
 - [Java](./java/heapInt.java)
 
-#### *Ordem decrescente*
-- [C] (em breve)
+### *Ordem decrescente*
+- C (em breve)
 - C++ (em breve)
 - Java (em breve)
+</details>
 
-### Ordenando vetor Float
+<details>
+<summary>Ordenando vetor Float</summary>
 
-#### *Ordem crescente*
+### *Ordem crescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
-#### *Ordem decrescente*
+### *Ordem decrescente*
+- C (em breve)
+- C++ (em breve)
+- Java (em breve)
+</details>
+
+<details>
+<summary>Ordenando vetor Double</summary>
+
+### *Ordem crescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
-### Ordenando vetor Double
+### *Ordem decrescente*
+- C (em breve)
+- C++ (em breve)
+- Java (em breve)
+</details>
 
-#### *Ordem crescente*
+<details>
+<summary>Ordenando vetor de caracteres</summary>
+
+### *Ordem crescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
-#### *Ordem decrescente*
+### *Ordem decrescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
+</details>
 
-### Ordenando vetor de caracteres
+<details>
+<summary>Ordenando vetor de Strings</summary>
 
-#### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
-
-#### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
-
-### Ordenando vetor de Strings
-
-#### *Ordem crescente*
+### *Ordem crescente*
 - C++ (em breve)
 - [Java](./java/heapString.java)
 
-#### *Ordem decrescente*
+### *Ordem decrescente*
 - C++ (em breve)
 - Java (em breve)
+</details>
 
 ## Modo desenvolvedor
 Para a execussão dos códigos é aconselhável que os códigos em [C](heapSort.c) e [C++](heapSort.cpp) sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as exetensoes adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).

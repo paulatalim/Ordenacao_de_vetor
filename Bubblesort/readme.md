@@ -74,8 +74,6 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 - Java (em breve)
 </details>
 
-##
-
 ## Implantação do algoritmo
 
 ### 1º Passo
