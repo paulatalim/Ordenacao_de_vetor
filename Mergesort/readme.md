@@ -81,7 +81,7 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 Para implementar o método mergesort no seu código primeiro copie e cole as funções e procedimentos
 
 - `void intercalar (int[] vet, int esq, int meio, int dir)`
-- `void merge (int[] vet, int esq, int dir)`
+- `void merge (int vet[], int esq, int dir)`
 - `void mergesort (int[] vet)`
 
 ### 2º Passo
