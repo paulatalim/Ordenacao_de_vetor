@@ -6,14 +6,73 @@
 ## Funcionalidades
 Nesse diretório há códigos, os quais executam o quicksort, ordenando vários tipos de vetor em 3 linguagens de programação diferentes.
 
-### Ordenando vetor de inteiros
+<details>
+<summary>Ordenando vetor de inteiros</summary>
+
+### *Ordem crescente*
 - [C](./c/quickInt.c)
 - C++ (em breve)
 - [Java](./java/quickInt.java)
 
-### Ordenando vetor de Strings
+### *Ordem decrescente*
+- C (em breve)
+- C++ (em breve)
+- Java (em breve)
+</details>
+
+<details>
+<summary> Ordenando vetor Float</summary>
+
+### *Ordem crescente*
+- C (em breve)
+- C++ (em breve)
+- Java (em breve)
+
+### *Ordem decrescente*
+- C (em breve)
+- C++ (em breve)
+- Java (em breve)
+</details>
+
+<details>
+<summary>Ordenando vetor Double</summary>
+
+### *Ordem crescente*
+- C (em breve)
+- C++ (em breve)
+- Java (em breve)
+
+### *Ordem decrescente*
+- C (em breve)
+- C++ (em breve)
+- Java (em breve)
+</details>
+
+<details>
+<summary>Ordenando vetor de caracteres</summary>
+
+### *Ordem crescente*
+- C (em breve)
+- C++ (em breve)
+- Java (em breve)
+
+### *Ordem decrescente*
+- C (em breve)
+- C++ (em breve)
+- Java (em breve)
+</details> 
+
+<details>
+<summary>Ordenando vetor de Strings</summary>
+
+### *Ordem crescente*
 - C++ (em breve)
 - [Java](./java/quickString.java)
+
+### *Ordem decrescente*
+- C++ (em breve)
+- Java (em breve)
+</details> 
 
 ## Como usar
 No lugar onde deseja ordenar o vetor chame pela função quicksort passando por parametro o vetor que deseja ser ordenado
