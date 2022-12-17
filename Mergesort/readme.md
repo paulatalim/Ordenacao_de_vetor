@@ -105,4 +105,4 @@ mergesort(vetor_a_ser_ordenado);
 ```
 
 ## Modo desenvolvedor
-Para a execussão dos códigos é aconselhável que os códigos em C e C++ sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as exetensoes adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).
+Para a execussão dos códigos é aconselhável que os códigos em C e C++ sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as extensões adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).
