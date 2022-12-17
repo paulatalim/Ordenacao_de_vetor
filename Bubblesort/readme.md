@@ -6,63 +6,75 @@
 ## Funcionalidades
 Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários tipos de vetor em 3 linguagens de programação diferentes.
 
-### Ordenando vetor de inteiros
+<details>
+<summary>Ordenando vetor de inteiros</summary>
 
-#### *Ordem crescente*
+### *Ordem crescente*
 - [C](./c/bubbleIntCrescente.c)
 - [C++](./cpp/bubbleInt.cpp)
 - [Java](./java/bublleInt.java)
 
-#### *Ordem decrescente*
+### *Ordem decrescente*
 - [C](./c/bubbleIntDecrescente.c)
 - C++ (em breve)
 - Java (em breve)
+</details>
 
-### Ordenando vetor Float
+<details>
+<summary> Ordenando vetor Float</summary>
 
-#### *Ordem crescente*
+### *Ordem crescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
-#### *Ordem decrescente*
+### *Ordem decrescente*
+- C (em breve)
+- C++ (em breve)
+- Java (em breve)
+</details>
+
+<details>
+<summary>Ordenando vetor Double</summary>
+
+### *Ordem crescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
-### Ordenando vetor Double
+### *Ordem decrescente*
+- C (em breve)
+- C++ (em breve)
+- Java (em breve)
+</details>
 
-#### *Ordem crescente*
+<details>
+<summary>Ordenando vetor de caracteres</summary>
+
+### *Ordem crescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
 
-#### *Ordem decrescente*
+### *Ordem decrescente*
 - C (em breve)
 - C++ (em breve)
 - Java (em breve)
+</details> 
 
-### Ordenando vetor de caracteres
+<details> 
+<summary>Ordenando vetor de Strings</summary>
 
-#### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
-
-#### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
-
-### Ordenando vetor de Strings
-
-#### *Ordem crescente*
+### *Ordem crescente*
 - C++ (em breve)
 - [Java](./java/bublleString.java)
 
-#### *Ordem decrescente*
+### *Ordem decrescente*
 - C++ (em breve)
 - Java (em breve)
+</details>
+
+##
 
 ## Implantação do algoritmo
 
