@@ -76,5 +76,31 @@ Nesse diretório há códigos, os quais executam o heapsort, ordenando vários t
 - Java (em breve)
 </details>
 
+## Implantação do algoritmo
+
+### 1º Passo
+
+Para implementar o método heapsort no seu código primeiro copie e cole as funções e procedimentos
+
+- `void swap (int vet[], int i, int j)`
+- `int indice_pai (int filho)`
+- `void construir (int vet[], int tam)`
+- `void reconstruir (int vet[], int tam)`
+- `void heapsort (int vet[])`
+
+### 2º Passo
+
+Por fim, para ordenar seu array chame pela função `heapsort()`, passando por parâmentto o vetor que deseja ordenar
+
+``` 
+heapsort(nome_do_vetor); 
+```
+
+> 💡 Observação
+>
+> Os argumentos das funções podem mudar de acordo com a liguagem de programação utilizada.
+
+
 ## Modo desenvolvedor
-Para a execussão dos códigos é aconselhável que os códigos em [C](heapSort.c) e [C++](heapSort.cpp) sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as exetensoes adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).
+
+Para a execussão dos códigos é aconselhável que os códigos em [C](./c) e [C++](./cpp) sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as exetensoes adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).

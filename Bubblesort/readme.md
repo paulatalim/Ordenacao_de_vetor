@@ -80,15 +80,15 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 
 Para implementar o método bubblesort no seu código primeiro copie e cole as funções e procedimentos
 
-- `swap (int vet[], int i, int j)`
-- `bubblesort (int vet[])`
+- `void swap (int vet[], int i, int j)`
+- `void bubblesort (int vet[])`
 
 ### 2º Passo
 
 Por fim, para ordenar seu array chame pela função `bubblesort()`, passando por parâmentto o vetor que deseja ordenar
 
 ``` 
-bubblesort (nome_do_vetor); 
+bubblesort(nome_do_vetor); 
 ```
 
 > 💡 Observação

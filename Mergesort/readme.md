@@ -74,6 +74,29 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 - Java (em breve)
 </details>
 
+## Implantação do algoritmo
+
+### 1º Passo
+
+Para implementar o método mergesort no seu código primeiro copie e cole as funções e procedimentos
+
+- `void intercalar (int[] vet, int esq, int meio, int dir)`
+- `void merge (int[] vet, int esq, int dir)`
+- `void mergesort (int[] vet)`
+
+### 2º Passo
+
+Por fim, para ordenar seu array chame pela função `mergesort()`, passando por parâmentto o vetor que deseja ordenar
+
+``` 
+mergesort(nome_do_vetor); 
+```
+
+> 💡 Observação
+>
+> Os argumentos das funções podem mudar de acordo com a liguagem de programação utilizada.
+
+
 ## Como usar
 No lugar onde deseja ordenar o vetor chame pela função mergesort passando por parametro o vetor que deseja ser ordenado
 

@@ -87,7 +87,7 @@ public class heapInt {
 	 * 
 	 * Parametro: um vetor de inteiros (vetor a ser ordenado)
 	 */
-	public static void HeapSort (int[] vet) {
+	public static void heapsort (int[] vet) {
 		int tam;
 
         //Construcao do heap

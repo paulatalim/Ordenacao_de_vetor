@@ -91,7 +91,7 @@ inteiros em ordem crescente com o metodo HeapSort
 
 Parametro: um vetor de inteiros (vetor a ser ordenado)
 */
-void heapSort (int vet[], int n) {
+void heapsort (int vet[], int n) {
     int tam;
 
     //Construcao do heap
