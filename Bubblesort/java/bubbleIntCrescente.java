@@ -1,5 +1,5 @@
 public class bubbleIntCrescente {
-    /*
+	/*
 	 * Descricao: essa funcao troca dois elementos de um vetor de inteiros
 	 * Parametros: um vetor de inteiros (vetor que tera os 
 	 * elementos trocados) e dois inteiros (indice dos 
@@ -11,7 +11,7 @@ public class bubbleIntCrescente {
 		vet[j] = aux;
 	}
     
-    /* 
+	/* 
 	 * Descricao: essa funcao ordena um vetor de inteiros
 	 * em ordem crescente com o metodo bubblesort
 	 * 

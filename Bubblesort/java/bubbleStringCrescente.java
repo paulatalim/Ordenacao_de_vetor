@@ -1,5 +1,5 @@
-public class bublleString {
-    /*
+public class bubbleStringCrescente {
+	/*
 	 * Descricao: essa funcao troca dois elementos de um vetor com strings
 	 * Parametros: um vetor de strings (vetor que tera os 
 	 * elementos trocados) e dois inteiros (indice dos 
@@ -11,7 +11,7 @@ public class bublleString {
 		vet[j] = aux;
 	}
 
-    /* 
+	/* 
 	 * Descricao: essa funcao ordena um vetor de string 
 	 * em ordem alfabetica com o metodo bubblesort
 	 * 
