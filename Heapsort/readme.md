@@ -28,7 +28,7 @@ Nesse diretório há códigos, os quais executam o heapsort, ordenando vários t
 ### *Ordem crescente*
 - [C](./c/heapsortFloatCrescente.c)
 - [C++](./cpp/heapsortFloatCrescente.cpp)
-- Java (em breve)
+- [Java](./java/heapsortFloatCrescente.java)
 
 ### *Ordem decrescente*
 - C (em breve)
@@ -42,7 +42,7 @@ Nesse diretório há códigos, os quais executam o heapsort, ordenando vários t
 ### *Ordem crescente*
 - [C](./c/heapsortDoubleCrescente.c)
 - [C++](./cpp/heapsortDoubleCrescente.cpp)
-- Java (em breve)
+- [Java](./java/heapsortDoubleCrescente.java)
 
 ### *Ordem decrescente*
 - C (em breve)
@@ -56,7 +56,7 @@ Nesse diretório há códigos, os quais executam o heapsort, ordenando vários t
 ### *Ordem crescente*
 - [C](./c/heapsortCharCrescente.c)
 - [C++](./cpp/heapsortCharCrescente.cpp)
-- Java (em breve)
+- [Java](./java/heapsortCharCrescente.java)
 
 ### *Ordem decrescente*
 - C (em breve)
