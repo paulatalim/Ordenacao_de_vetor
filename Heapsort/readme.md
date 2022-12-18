@@ -12,9 +12,9 @@ Nesse diretório há códigos, os quais executam o heapsort, ordenando vários t
 <summary>Ordenando vetor de inteiros</summary>
 
 ### *Ordem crescente*
-- [C](./c/heapSort.c)
+- [C](./c/heapsortIntCrescente.c)
 - [C++](./cpp/heapsortIntCrescente.cpp)
-- [Java](./java/heapInt.java)
+- [Java](./java/heapsortIntCrescente.java)
 
 ### *Ordem decrescente*
 - C (em breve)
@@ -69,7 +69,7 @@ Nesse diretório há códigos, os quais executam o heapsort, ordenando vários t
 
 ### *Ordem crescente*
 - C++ (em breve)
-- [Java](./java/heapString.java)
+- [Java](./java/heapsortStringCrescente.java)
 
 ### *Ordem decrescente*
 - C++ (em breve)
