@@ -11,7 +11,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 
 ### *Ordem crescente*
 - [C](./c/bubbleIntCrescente.c)
-- [C++](./cpp/bubbleInt.cpp)
+- [C++](./cpp/bubbleIntCrescente.cpp)
 - [Java](./java/bublleInt.java)
 
 ### *Ordem decrescente*
