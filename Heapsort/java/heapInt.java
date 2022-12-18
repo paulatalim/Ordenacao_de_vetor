@@ -1,10 +1,10 @@
 public class heapInt {
 	/*
-	 * Descricao: essa funcao troca dois elementos de um vetor de inteiros
-	 * Parametros: um vetor de inteiros (vetor que tera os 
-	 * elementos trocados) e dois inteiros (indice dos 
-	 * dois elementos a serem trocados)
-	 */
+	* Descricao: essa funcao troca dois elementos de um vetor de inteiros
+	* Parametros: um vetor de inteiros (vetor que tera os 
+	* elementos trocados) e dois inteiros (indice dos 
+	* dois elementos a serem trocados)
+	*/
 	public static void swap (int[] vet, int i, int j) {
 		int aux = vet[i];
 		vet[i] = vet[j];
@@ -28,11 +28,11 @@ public class heapInt {
 	}
 
 	/* 
-	 * Descricao: essa funcao constroi o heap de um vetor de inteiros
-	 * 
-	 * Parametros: um vetor de inteiros (vetor a ser construido 
-	 * a arvore heap) e um inteiro (tamanho valido do vetor)
-	 */
+	* Descricao: essa funcao constroi o heap de um vetor de inteiros
+	* 
+	* Parametros: um vetor de inteiros (vetor a ser construido 
+	* a arvore heap) e um inteiro (tamanho valido do vetor)
+	*/
 	public static void construir (int[] vet, int tam) {
 		int indice = indice_pai(tam);
 		int i = tam;
@@ -51,12 +51,12 @@ public class heapInt {
 	}
 
 	/*
-	 * Descricao: essa funcao reconstroi um vetor 
-	 * de numeros de inteiros com a arvore heap ja construida 
-	 * 
-	 * Parametros: vetor de inteiros (vetor a ser reconstruido) 
-	 * e um inteiro (tamanho valido do vetor)
-	 */
+	* Descricao: essa funcao reconstroi um vetor 
+	* de numeros de inteiros com a arvore heap ja construida 
+	* 
+	* Parametros: vetor de inteiros (vetor a ser reconstruido) 
+	* e um inteiro (tamanho valido do vetor)
+	*/
 	public static void reconstruir (int[] vet, int tam) {
 		int filho;
 		int meio = indice_pai(tam);
@@ -82,24 +82,24 @@ public class heapInt {
 	}
 
 	/* 
-	 * Descricao: essa funcao ordena um vetor com numeros 
-	 * do tipo inteiro em ordem crescente com o metodo HeapSort
-	 * 
-	 * Parametro: um vetor de inteiros (vetor a ser ordenado)
-	 */
+	* Descricao: essa funcao ordena um vetor com numeros 
+	* do tipo inteiro em ordem crescente com o metodo HeapSort
+	* 
+	* Parametro: um vetor de inteiros (vetor a ser ordenado)
+	*/
 	public static void heapsort (int[] vet) {
 		int tam;
 
-        //Construcao do heap
-        for (tam = 1; tam < vet.length; tam++) {
-            construir(vet, tam);
-        }
+		//Construcao do heap
+		for (tam = 1; tam < vet.length; tam++) {
+			construir(vet, tam);
+		}
 
-        //Ordenacao do vetor
-        tam = vet.length - 1;
-        while (tam > 0) {
-            swap(vet, 0, tam--);
-            reconstruir(vet, tam);
-        }
-    }
+		//Ordenacao do vetor
+		tam = vet.length - 1;
+		while (tam > 0) {
+			swap(vet, 0, tam--);
+			reconstruir(vet, tam);
+		}
+	}
 }
