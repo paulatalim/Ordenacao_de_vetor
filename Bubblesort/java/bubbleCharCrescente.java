@@ -1,4 +1,4 @@
-public class bublleInt {
+public class bublleIntCrescente {
     /*
 	 * Descricao: essa funcao troca dois elementos de um vetor de inteiros
 	 * Parametros: um vetor de inteiros (vetor que tera os 
