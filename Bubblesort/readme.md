@@ -17,7 +17,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 ### *Ordem decrescente*
 - [C](./c/bubbleIntDecrescente.c)
 - [C++](./cpp/bubbleIntDecrescente.cpp)
-- Java (em breve)
+- [Java](./java/bubbleIntDecrescente.java)
 </details>
 
 <details>
@@ -26,12 +26,12 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 ### *Ordem crescente*
 - [C](./c/bubbleFloatCrescente.c)
 - [C++](./cpp/bubbleFloatCrescente.cpp)
-- Java (em breve)
+- [Java](./java/bubbleFloatCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/bubbleFloatDecrescente.c)
 - [C++](./cpp/bubbleFloatDecrescente.cpp)
-- Java (em breve)
+- [Java](./java/bubbleFloatDecrescente.java)
 </details>
 
 <details>
@@ -40,12 +40,12 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 ### *Ordem crescente*
 - [C](./c/bubbleDoubleCrescente.c)
 - [C++](./cpp/bubbleDoubleCrescente.cpp)
-- Java (em breve)
+- [Java](./java/bubbleDoubleCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/bubbleDoubleDecrescente.c)
 - [C++](./cpp/bubbleDoubleDecrescente.cpp)
-- Java (em breve)
+- [Java](./java/bubbleDoubleDecrescente.java)
 </details>
 
 <details>
@@ -54,12 +54,12 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 ### *Ordem crescente*
 - [C](./c/bubbleCharCrescente.c)
 - [C++](./cpp/bubbleCharCrescente.cpp)
-- Java (em breve)
+- [Java](./java/bubbleCharCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/bubbleCharDecrescente.c)
 - [C++](./cpp/bubbleCharDecrescente.cpp)
-- Java (em breve)
+- [Java](./java/bubbleCharDecrescente.java)
 </details> 
 
 <details> 
@@ -71,7 +71,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 
 ### *Ordem decrescente*
 - C++ (em breve)
-- Java (em breve)
+- [Java](./java/bubbleStringDecrescente.java)
 </details>
 
 ## Implantação do algoritmo
