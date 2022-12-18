@@ -26,7 +26,7 @@ Nesse diretório há códigos, os quais executam o heapsort, ordenando vários t
 <summary>Ordenando vetor Float</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/heapsortFloatCrescente.c)
 - C++ (em breve)
 - Java (em breve)
 
@@ -40,7 +40,7 @@ Nesse diretório há códigos, os quais executam o heapsort, ordenando vários t
 <summary>Ordenando vetor Double</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/heapsortDoubleCrescente.c)
 - C++ (em breve)
 - Java (em breve)
 
@@ -54,7 +54,7 @@ Nesse diretório há códigos, os quais executam o heapsort, ordenando vários t
 <summary>Ordenando vetor de caracteres</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/heapsortCharCrescente.c)
 - C++ (em breve)
 - Java (em breve)
 
