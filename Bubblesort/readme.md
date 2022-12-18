@@ -29,7 +29,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 - Java (em breve)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/bubbleFloatDecrescente.c)
 - C++ (em breve)
 - Java (em breve)
 </details>
@@ -43,7 +43,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 - Java (em breve)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/bubbleDoubleDecrescente.c)
 - C++ (em breve)
 - Java (em breve)
 </details>
@@ -52,12 +52,12 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 <summary>Ordenando vetor de caracteres</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/bubbleCharCrescente.c)
 - C++ (em breve)
 - Java (em breve)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/bubbleCharDecrescente.c)
 - C++ (em breve)
 - Java (em breve)
 </details> 
