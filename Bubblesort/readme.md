@@ -12,7 +12,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 ### *Ordem crescente*
 - [C](./c/bubbleIntCrescente.c)
 - [C++](./cpp/bubbleIntCrescente.cpp)
-- [Java](./java/bublleInt.java)
+- [Java](./java/bubbleIntCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/bubbleIntDecrescente.c)
@@ -67,7 +67,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 
 ### *Ordem crescente*
 - C++ (em breve)
-- [Java](./java/bublleString.java)
+- [Java](./java/bubbleStringCrescente.java)
 
 ### *Ordem decrescente*
 - C++ (em breve)
