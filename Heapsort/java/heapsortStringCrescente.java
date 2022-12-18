@@ -1,4 +1,4 @@
-public class heapString {
+public class heapsortStringCrescente {
 	/*
 	* Descricao: essa funcao troca dois elementos de um vetor com strings
 	* Parametros: um vetor de strings (vetor que tera os 
