@@ -17,13 +17,10 @@ void swap (double vet[], int i, int j) {
 Descricao: esse procedimento ordena um vetor double
 em ordem crescente com o metodo bubblesort
 
-Parametro: um vetor double (vetor a ser ordenado)
+Parametro: um vetor double (vetor a ser ordenado) e
+um inteiro (tamanho do vetor)
 */
-void bubblesort (double vet[]) {
-    //Calculo do tamanho do vetor
-    int n = sizeof(vet)/sizeof(double);
-
-    //Ordenacao do vetor
+void bubblesort (double vet[], int n) {
     for (int i = n-1; i > 0; i--) {
         for (int j = 0; j < i; j++) {
             if (vet[j] > vet[j+1]) {
