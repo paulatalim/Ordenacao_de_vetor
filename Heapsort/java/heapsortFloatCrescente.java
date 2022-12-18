@@ -1,12 +1,12 @@
 public class heapsortFloatCrescente {
 	/*
-	* Descricao: essa funcao troca dois elementos de um vetor de inteiros
-	* Parametros: um vetor de inteiros (vetor que tera os 
+	* Descricao: essa funcao troca dois elementos de um vetor de reais
+	* Parametros: um vetor de reais (vetor que tera os 
 	* elementos trocados) e dois inteiros (indice dos 
 	* dois elementos a serem trocados)
 	*/
-	public static void swap (int[] vet, int i, int j) {
-		int aux = vet[i];
+	public static void swap (float[] vet, int i, int j) {
+		float aux = vet[i];
 		vet[i] = vet[j];
 		vet[j] = aux;
 	}
@@ -28,12 +28,12 @@ public class heapsortFloatCrescente {
 	}
 
 	/* 
-	* Descricao: essa funcao constroi o heap de um vetor de inteiros
+	* Descricao: essa funcao constroi o heap de um vetor de reais
 	* 
-	* Parametros: um vetor de inteiros (vetor a ser construido 
+	* Parametros: um vetor de reais (vetor a ser construido 
 	* a arvore heap) e um inteiro (tamanho valido do vetor)
 	*/
-	public static void construir (int[] vet, int tam) {
+	public static void construir (float[] vet, int tam) {
 		int indice = indice_pai(tam);
 		int i = tam;
 
@@ -54,10 +54,10 @@ public class heapsortFloatCrescente {
 	* Descricao: essa funcao reconstroi um vetor 
 	* de numeros de inteiros com a arvore heap ja construida 
 	* 
-	* Parametros: vetor de inteiros (vetor a ser reconstruido) 
+	* Parametros: vetor de reais (vetor a ser reconstruido) 
 	* e um inteiro (tamanho valido do vetor)
 	*/
-	public static void reconstruir (int[] vet, int tam) {
+	public static void reconstruir (float[] vet, int tam) {
 		int filho;
 		int meio = indice_pai(tam);
 		int i = 0;
@@ -85,9 +85,9 @@ public class heapsortFloatCrescente {
 	* Descricao: essa funcao ordena um vetor com numeros 
 	* do tipo inteiro em ordem crescente com o metodo HeapSort
 	* 
-	* Parametro: um vetor de inteiros (vetor a ser ordenado)
+	* Parametro: um vetor de reais (vetor a ser ordenado)
 	*/
-	public static void heapsort (int[] vet) {
+	public static void heapsort (float[] vet) {
 		int tam;
 
 		//Construcao do heap
