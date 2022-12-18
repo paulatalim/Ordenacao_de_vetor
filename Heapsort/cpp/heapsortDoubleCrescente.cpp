@@ -5,12 +5,12 @@ using namespace std;
 /*
 Descricao: esse procedimento troca dois elementos de um vetor
 
-Parametros: um vetor de inteiros (vetor que tera os 
+Parametros: um vetor double (vetor que tera os 
 elementos trocados) e dois inteiros (indice dos 
 dois elementos a serem trocados)
 */
-void swap (int vet[], int i, int j) {
-    int aux = vet[i];
+void swap (double vet[], int i, int j) {
+    double aux = vet[i];
     vet[i] = vet[j];
     vet[j] = aux;
 }
@@ -32,12 +32,12 @@ int indice_pai (int filho) {
 }
 
 /* 
-Descricao: esse procedimento constroi o heap de um vetor de inteiros
+Descricao: esse procedimento constroi o heap de um vetor double
 
-Parametros: um vetor de inteiros (vetor a ser construido 
+Parametros: um vetor double (vetor a ser construido 
 a arvore heap) e um inteiro (tamanho valido do vetor)
 */
-void construir (int vet[], int tam) {
+void construir (double vet[], int tam) {
     int indice = indice_pai(tam);
     int i = tam;
 
@@ -58,10 +58,10 @@ void construir (int vet[], int tam) {
 Descricao: esse procedimento reconstroi um vetor 
 de numeros inteiros com a arvore heap ja construida 
 
-Parametros: vetor de inteiros (vetor a ser reconstruido) 
+Parametros: vetor double (vetor a ser reconstruido) 
 e um inteiro (tamanho valido do vetor)
 */
-void reconstruir (int vet[], int tam) {
+void reconstruir (double vet[], int tam) {
     int filho;
     int meio = indice_pai(tam);
     int i = 0;
@@ -89,9 +89,9 @@ void reconstruir (int vet[], int tam) {
 Descricao: esse procedimento ordena um vetor com numeros 
 inteiros em ordem crescente com o metodo HeapSort
 
-Parametro: um vetor de inteiros (vetor a ser ordenado)
+Parametro: um vetor double (vetor a ser ordenado)
 */
-void heapsort (int vet[], int n) {
+void heapsort (double vet[], int n) {
     int tam;
 
     //Construcao do heap
