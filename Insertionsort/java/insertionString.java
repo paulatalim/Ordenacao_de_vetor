@@ -1,11 +1,11 @@
 public class insertionString {
 	/* 
-	 * Descricao: essa funcao ordena um vetor de strings
-	 * em ordem alfabetica com o metodo insertionsort
-	 * 
-	 * Parametro: um vetor de strings (vetor a ser ordenado)
-	 */
-    public static void insertionsort (String[] vet) {
+	* Descricao: essa funcao ordena um vetor de strings
+	* em ordem alfabetica com o metodo insertionsort
+	* 
+	* Parametro: um vetor de strings (vetor a ser ordenado)
+	*/
+	public static void insertionsort (String[] vet) {
 		for (int i = 1; i < vet.length; i++) {
 			String temp = new String (vet[i]);
 			int j = i - 1;
