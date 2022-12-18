@@ -21,10 +21,10 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 </details>
 
 <details>
-<summary> Ordenando vetor Float</summary>
+<summary>Ordenando vetor Float</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/bubbleFloatCrescente.c)
 - C++ (em breve)
 - Java (em breve)
 
@@ -38,7 +38,7 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 <summary>Ordenando vetor Double</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/bubbleDoubleCrescente.c)
 - C++ (em breve)
 - Java (em breve)
 
