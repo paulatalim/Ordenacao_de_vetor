@@ -3,7 +3,7 @@
 
 /*
 Descricao: esse procedimento troca dois elementos de um vetor de reais
-Parametros: um vetor de inteiros (vetor que tera os 
+Parametros: um vetor de reais (vetor que tera os 
 elementos trocados) e dois inteiros (indice dos 
 dois elementos a serem trocados)
 */
