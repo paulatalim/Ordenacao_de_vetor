@@ -1,4 +1,4 @@
-public class bubbleIntCrescente {
+public class bubbleIntDecrescente {
 	/*
 	 * Descricao: essa funcao troca dois elementos de um vetor de inteiros
 	 * Parametros: um vetor de inteiros (vetor que tera os 
@@ -13,14 +13,14 @@ public class bubbleIntCrescente {
     
 	/* 
 	 * Descricao: essa funcao ordena um vetor de inteiros
-	 * em ordem crescente com o metodo bubblesort
+	 * em ordem decrescente com o metodo bubblesort
 	 * 
 	 * Parametro: um vetor de inteiros (vetor a ser ordenado)
 	 */
 	public static void bubblesort (int[] vet) {
 		for (int i = vet.length-1; i > 0; i--) {
 			for (int j = 0; j < i; j++) {
-				if (vet[j] > vet[j+1]) {
+				if (vet[j] < vet[j+1]) {
 					swap(vet, j, j+1);
 				}
 			}
