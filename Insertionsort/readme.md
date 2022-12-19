@@ -10,26 +10,26 @@ Nesse diretório há códigos, os quais executam o insertionsort, ordenando vár
 <summary>Ordenando vetor de inteiros</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/insertionIntCrescente.c)
 - C++ (em breve)
 - [Java](./java/insertionIntCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/insertionIntDecrescente.c)
 - C++ (em breve)
 - [Java](./java/insertionIntDecrescente.java)
 </details>
 
 <details>
-<summary> Ordenando vetor Float</summary>
+<summary>Ordenando vetor Float</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/insertionFloatCrescente.c)
 - C++ (em breve)
 - [Java](./java/insertionFloatCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/insertionFloatDecrescente.c)
 - C++ (em breve)
 - [Java](./java/insertionFloatDecrescente.java)
 </details>
@@ -38,12 +38,12 @@ Nesse diretório há códigos, os quais executam o insertionsort, ordenando vár
 <summary>Ordenando vetor Double</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/insertionDoubleCrescente.c)
 - C++ (em breve)
 - [Java](./java/insertionDoubleCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/insertionDoubleDecrescente.c)
 - C++ (em breve)
 - [Java](./java/insertionDoubleDecrescente.java)
 </details>
@@ -52,12 +52,12 @@ Nesse diretório há códigos, os quais executam o insertionsort, ordenando vár
 <summary>Ordenando vetor de caracteres</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/insertionCharCrescente.c)
 - C++ (em breve)
 - [Java](./java/insertionCharCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/insertionCharDecrescente.c)
 - C++ (em breve)
 - [Java](./java/insertionCharDecrescente.java)
 </details> 
