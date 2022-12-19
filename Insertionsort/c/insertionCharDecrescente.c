@@ -1,6 +1,6 @@
 /* 
 Descricao: essa funcao ordena um vetor de caracteres
-em ordem crescente com o metodo insertionsort
+em ordem decrescente com o metodo insertionsort
 
 Parametro: um vetor de caracteres (vetor a ser ordenado)
 e um inteiro (tamanho do vetor)
@@ -10,7 +10,7 @@ void insertionsort (char vet[], int n) {
 		char temp = vet[i];
 		int j = i - 1;
 
-		while (j>=0 && vet[j] > temp) {
+		while (j>=0 && vet[j] < temp) {
 			vet[j+1] = vet[j];
 			j--;
 		}
