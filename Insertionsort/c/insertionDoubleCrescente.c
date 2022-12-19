@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /* 
 Descricao: essa funcao ordena um vetor double
 em ordem crescente com o metodo insertionsort

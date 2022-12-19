@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /* 
 Descricao: essa funcao ordena um vetor de inteiros
 em ordem decrescente com o metodo insertionsort
