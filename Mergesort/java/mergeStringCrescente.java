@@ -1,13 +1,13 @@
-public class mergeString {
-    /*
-	 * Descricao: apartir de um vetor de string, essa 
-	 * funcao subdivide o vetor em outros dois e intercala 
-	 * seus elementos entre si no vetor principal
-	 * 
-	 * Parametros: um vetor de string (vetor a ser intercalado) e 
-	 * 3 inteiros (o primeiro, o ultimo e o indice do elemento do 
-	 * meio do vetor)
-	 */
+public class mergeStringCrescente {
+	/*
+	* Descricao: apartir de um vetor de string, essa 
+	* funcao subdivide o vetor em outros dois e intercala 
+	* seus elementos entre si no vetor principal
+	* 
+	* Parametros: um vetor de string (vetor a ser intercalado) e 
+	* 3 inteiros (o primeiro, o ultimo e o indice do elemento do 
+	* meio do vetor)
+	*/
 	public static void intercalar (String[] vet, int esq, int meio, int dir) {
 		int nEsq = (meio -esq) + 1;
 		int nDir = dir - meio;
@@ -44,12 +44,12 @@ public class mergeString {
 	}
 
 	/* 
-	 * Descricao: essa funcao ordena um vetor de string 
-	 * em ordem alfabetica com o metodo mergesort
-	 * 
-	 * Parametro: um vetor de string (vetor a ser ordenado)
-	 * e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
-	 */
+	* Descricao: essa funcao ordena um vetor de string 
+	* em ordem alfabetica com o metodo mergesort
+	* 
+	* Parametro: um vetor de string (vetor a ser ordenado)
+	* e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
+	*/
 	public static void merge (String[] vet, int esq, int dir) {
 		if (esq < dir) {
 			int meio = (esq + dir) /2;
@@ -60,12 +60,12 @@ public class mergeString {
 	}
 
 	/*
-	 * Descricao: essa funcao chama pela funcao merge 
-	 * para ordena o vetor em ordem alfabetica, possuindo 
-	 * argumentos mais simplificados
-	 * 
-	 * Parametro: um vetor de string (vetor a ser ordenado)
-	 */
+	* Descricao: essa funcao chama pela funcao merge 
+	* para ordena o vetor em ordem alfabetica, possuindo 
+	* argumentos mais simplificados
+	* 
+	* Parametro: um vetor de string (vetor a ser ordenado)
+	*/
 	public static void mergesort (String[] vet) {
 		merge(vet, 0, vet.length - 1);
 	}
