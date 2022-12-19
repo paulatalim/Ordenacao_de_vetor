@@ -1,7 +1,7 @@
-public class insertionFloatCrescente {
+public class insertionFloatDecrescente {
 	/* 
 	* Descricao: essa funcao ordena um vetor de reais
-	* em ordem crescente com o metodo insertionsort
+	* em ordem decrescente com o metodo insertionsort
 	* 
 	* Parametro: um vetor de reais (vetor a ser ordenado)
 	*/
@@ -10,7 +10,7 @@ public class insertionFloatCrescente {
 			float temp = vet[i];
 			int j = i - 1;
 
-			while (j>=0 && vet[j] > temp) {
+			while (j>=0 && vet[j] < temp) {
 				vet[j+1] = vet[j];
 				j--;
 			}

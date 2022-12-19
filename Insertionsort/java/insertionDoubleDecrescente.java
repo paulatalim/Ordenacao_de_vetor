@@ -1,7 +1,7 @@
-public class insertionDoubleCrescente {
+public class insertionDoubleDecrescente {
 	/* 
 	* Descricao: essa funcao ordena um vetor double
-	* em ordem crescente com o metodo insertionsort
+	* em ordem decrescente com o metodo insertionsort
 	* 
 	* Parametro: um vetor double (vetor a ser ordenado)
 	*/
@@ -10,7 +10,7 @@ public class insertionDoubleCrescente {
 			double temp = vet[i];
 			int j = i - 1;
 
-			while (j>=0 && vet[j] > temp) {
+			while (j>=0 && vet[j] < temp) {
 				vet[j+1] = vet[j];
 				j--;
 			}

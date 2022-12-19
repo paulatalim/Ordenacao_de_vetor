@@ -1,7 +1,7 @@
-public class insertionCharCrescente {
+public class insertionCharDecrescente {
 	/* 
 	* Descricao: essa funcao ordena um vetor de caracteres
-	* em ordem alfabetica com o metodo insertionsort
+	* em ordem decrescente com o metodo insertionsort
 	* 
 	* Parametro: um vetor de caracteres (vetor a ser ordenado)
 	*/
@@ -10,7 +10,7 @@ public class insertionCharCrescente {
 			char temp = vet[i];
 			int j = i - 1;
 
-			while (j>=0 && vet[j] > temp) {
+			while (j>=0 && vet[j] < temp) {
 				vet[j+1] = vet[j];
 				j--;
 			}

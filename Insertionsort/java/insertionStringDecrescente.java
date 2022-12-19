@@ -1,7 +1,7 @@
-public class insertionStringCrescente {
+public class insertionStringDecrescente {
 	/* 
 	* Descricao: essa funcao ordena um vetor de strings
-	* em ordem alfabetica com o metodo insertionsort
+	* em ordem decrescente com o metodo insertionsort
 	* 
 	* Parametro: um vetor de strings (vetor a ser ordenado)
 	*/
@@ -10,7 +10,7 @@ public class insertionStringCrescente {
 			String temp = new String (vet[i]);
 			int j = i - 1;
 
-			while (j>=0 && vet[j].toUpperCase().compareTo(temp.toUpperCase()) > 0) {
+			while (j>=0 && vet[j].toUpperCase().compareTo(temp.toUpperCase()) < 0) {
 				vet[j+1] = vet[j];
 				j--;
 			}
