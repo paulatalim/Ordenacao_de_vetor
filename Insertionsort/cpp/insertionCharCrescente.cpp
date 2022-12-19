@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
 
 /* 
 Descricao: essa funcao ordena um vetor de caracteres
