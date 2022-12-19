@@ -1,4 +1,4 @@
-public class insertionInt {
+public class insertionIntCrescente {
 	/* 
 	* Descricao: essa funcao ordena um vetor de inteiros
 	* em ordem crescente com o metodo insertionsort

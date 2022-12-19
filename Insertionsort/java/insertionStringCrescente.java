@@ -1,4 +1,4 @@
-public class insertionString {
+public class insertionStringCrescente {
 	/* 
 	* Descricao: essa funcao ordena um vetor de strings
 	* em ordem alfabetica com o metodo insertionsort
