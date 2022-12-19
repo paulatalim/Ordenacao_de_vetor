@@ -1,13 +1,13 @@
 /* 
-Descricao: essa funcao ordena um vetor de inteiros
+Descricao: essa funcao ordena um vetor double
 em ordem crescente com o metodo insertionsort
 
-Parametro: um vetor de inteiros (vetor a ser ordenado)
+Parametro: um vetor double (vetor a ser ordenado)
 e um inteiro (tamanho do vetor)
 */
-void insertionsort (int vet[], int n) {
+void insertionsort (double vet[], int n) {
 	for (int i = 1; i < n; i++) {
-		int temp = vet[i];
+		double temp = vet[i];
 		int j = i - 1;
 
 		while (j>=0 && vet[j] > temp) {
