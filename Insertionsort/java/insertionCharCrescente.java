@@ -1,13 +1,13 @@
-public class insertionIntCrescente {
+public class insertionCharCrescente {
 	/* 
-	* Descricao: essa funcao ordena um vetor de inteiros
-	* em ordem crescente com o metodo insertionsort
+	* Descricao: essa funcao ordena um vetor de caracteres
+	* em ordem alfabetica com o metodo insertionsort
 	* 
-	* Parametro: um vetor de inteiros (vetor a ser ordenado)
+	* Parametro: um vetor de caracteres (vetor a ser ordenado)
 	*/
-	public static void insertionsort (int[] vet) {
+	public static void insertionsort (char[] vet) {
 		for (int i = 1; i < vet.length; i++) {
-			int temp = vet[i];
+			char temp = vet[i];
 			int j = i - 1;
 
 			while (j>=0 && vet[j] > temp) {

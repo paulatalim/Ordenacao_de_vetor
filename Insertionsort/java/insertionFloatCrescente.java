@@ -1,13 +1,13 @@
-public class insertionIntCrescente {
+public class insertionFloatCrescente {
 	/* 
-	* Descricao: essa funcao ordena um vetor de inteiros
+	* Descricao: essa funcao ordena um vetor de reais
 	* em ordem crescente com o metodo insertionsort
 	* 
-	* Parametro: um vetor de inteiros (vetor a ser ordenado)
+	* Parametro: um vetor de reais (vetor a ser ordenado)
 	*/
-	public static void insertionsort (int[] vet) {
+	public static void insertionsort (float[] vet) {
 		for (int i = 1; i < vet.length; i++) {
-			int temp = vet[i];
+			float temp = vet[i];
 			int j = i - 1;
 
 			while (j>=0 && vet[j] > temp) {
