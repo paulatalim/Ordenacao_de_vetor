@@ -16,8 +16,8 @@ public class mergeStringCrescente {
 		String[] arrayDir = new String[nDir+1];
 
 		//Sentinela no final dos dois arrays
-		arrayEsq[nEsq] = "ZZZZZZZZZZZZZZ";
-		arrayDir[nDir] = "ZZZZZZZZZZZZZZ";
+		arrayEsq[nEsq] = "zzzzzzzzzzzzzzzzzz";
+		arrayDir[nDir] = "zzzzzzzzzzzzzzzzzz";
 
 		int iEsq, iDir, i;
 
