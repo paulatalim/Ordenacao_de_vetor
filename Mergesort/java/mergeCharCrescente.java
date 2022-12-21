@@ -60,12 +60,12 @@ public class mergeCharCrescente {
 	}
 
 	/*
-		* Descricao: essa funcao chama pela funcao merge 
-		* para ordena o vetor em ordem alfabetica, possuindo 
-		* argumentos mais simplificados
-		* 
-		* Parametro: um vetor de caracteres (vetor a ser ordenado)
-		*/
+	* Descricao: essa funcao chama pela funcao merge 
+	* para ordena o vetor em ordem alfabetica, possuindo 
+	* argumentos mais simplificados
+	* 
+	* Parametro: um vetor de caracteres (vetor a ser ordenado)
+	*/
 	public static void mergesort (char[] vet) {
 		merge (vet, 0, vet.length-1);
 	}

@@ -60,12 +60,12 @@ public class mergeIntCrescente {
 	}
 
 	/*
-		* Descricao: essa funcao chama pela funcao merge 
-		* para ordena o vetor em ordem crescente, possuindo 
-		* argumentos mais simplificados
-		* 
-		* Parametro: um vetor de inteiros (vetor a ser ordenado)
-		*/
+	* Descricao: essa funcao chama pela funcao merge 
+	* para ordena o vetor em ordem crescente, possuindo 
+	* argumentos mais simplificados
+	* 
+	* Parametro: um vetor de inteiros (vetor a ser ordenado)
+	*/
 	public static void mergesort (int[] vet) {
 		merge (vet, 0, vet.length-1);
 	}
