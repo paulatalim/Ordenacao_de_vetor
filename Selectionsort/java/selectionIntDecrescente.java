@@ -19,16 +19,16 @@ public class selectionIntDecrescente {
 	 */
 	public static void selectionsort (int vet[]) {
 		for (int i = 0; i < vet.length-1; i ++) {
-			int menor = i;
+			int maior = i;
 
 			for (int j = i + 1; j < vet.length; j++) {
-				if (vet[menor] > vet[j]) {
-					menor = j;
+				if (vet[maior] < vet[j]) {
+					maior = j;
 				}
 			}
 
-			if (i != menor) {
-				swap(vet, i, menor);
+			if (i != maior) {
+				swap(vet, i, maior);
 			}
 		}
 	}
