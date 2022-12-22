@@ -1,4 +1,4 @@
-public class mergeDoubleCrescente {
+public class mergeDoubleDedecrescente {
 	/*
 	* Descricao: apartir de um vetor double, essa 
 	* funcao subdivide o vetor em outros dois e intercala 
@@ -16,8 +16,8 @@ public class mergeDoubleCrescente {
 		double[] arrayDir = new double[nDir+1];
 
 		//Sentinela no final dos dois arrays
-		arrayEsq[nEsq] = 0x7FFFFFFF;
-		arrayDir[nDir] = 0x7FFFFFFF;
+		arrayEsq[nEsq] = -0x7FFFFFFF;
+		arrayDir[nDir] = -0x7FFFFFFF;
 
 		int iEsq, iDir, i;
 
@@ -33,7 +33,7 @@ public class mergeDoubleCrescente {
 
 		//Intercalacao propriamente dita
 		for (iEsq = 0, iDir = 0, i = esq; i <= dir; i++){
-			if (arrayEsq[iEsq] <= arrayDir[iDir]) {
+			if (arrayEsq[iEsq] >= arrayDir[iDir]) {
 				vet[i] = arrayEsq[iEsq];
 				iEsq++;
 			} else {
@@ -45,7 +45,7 @@ public class mergeDoubleCrescente {
 
 	/* 
 	* Descricao: essa funcao ordena um vetor double 
-	* em ordem crescente com o metodo mergesort
+	* em ordem decrescente com o metodo mergesort
 	* 
 	* Parametro: um vetor double (vetor a ser ordenado)
 	* e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
@@ -61,7 +61,7 @@ public class mergeDoubleCrescente {
 
 	/*
 	* Descricao: essa funcao chama pela funcao merge 
-	* para ordena o vetor em ordem crescente, possuindo 
+	* para ordena o vetor em ordem decrescente, possuindo 
 	* argumentos mais simplificados
 	* 
 	* Parametro: um vetor double (vetor a ser ordenado)
