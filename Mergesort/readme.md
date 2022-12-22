@@ -17,7 +17,7 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 ### *Ordem decrescente*
 - [C](./c/mergeIntDecrescente.c)
 - [C++](./cpp/mergeIntDecrescente.cpp)
-- Java (em breve)
+- [Java](./java/mergeIntDecrescente.java)
 </details>
 
 <details>
@@ -31,7 +31,7 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 ### *Ordem decrescente*
 - [C](./c/mergeFloatDecrescente.c)
 - [C++](./cpp/mergeFloatDecrescente.cpp)
-- Java (em breve)
+- [Java](./java/mergeFloatDecrescente.java)
 </details>
 
 <details>
@@ -45,7 +45,7 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 ### *Ordem decrescente*
 - [C](./c/mergeDoubleDecrescente.c)
 - [C++](./cpp/mergeDoubleDecrescente.cpp)
-- Java (em breve)
+- [Java](./java/mergeDoubleDecrescente.java)
 </details>
 
 <details>
@@ -59,7 +59,7 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 ### *Ordem decrescente*
 - [C](./c/mergeCharDecrescente.c)
 - [C++](./cpp/mergeCharDecrescente.cpp)
-- Java (em breve)
+- [Java](./java/mergeCharDecrescente.java)
 </details>
 
 <details>
@@ -71,7 +71,7 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 
 ### *Ordem decrescente*
 - C++ (em breve)
-- Java (em breve)
+- [Java](./java/mergeStringDecrescente.java)
 </details>
 
 ## Implantação do algoritmo
