@@ -2,20 +2,20 @@
 #include <stdio.h>
 
 /*
-Descricao: apartir de um vetor de inteiros, essa 
+Descricao: apartir de um vetor de caracteres, essa 
 funcao subdivide o vetor em outros dois e intercala 
 seus elementos entre si no vetor principal
 
-Parametros: um vetor de inteiros (vetor a ser intercalado) e 
+Parametros: um vetor de caracteres (vetor a ser intercalado) e 
 3 inteiros (o primeiro, o ultimo e o indice do elemento do 
 meio do vetor)
 */
-void intercalar (int vet[], int esq, int meio, int dir) {
+void intercalar (char vet[], int esq, int meio, int dir) {
 	int nEsq = (meio - esq) + 1;
 	int nDir = dir - meio;
 
-	int arrayEsq[nEsq+1];
-	int arrayDir[nDir+1];
+	char arrayEsq[nEsq+1];
+	char arrayDir[nDir+1];
 
 	//Sentinela no final dos dois arrays
 	arrayEsq[nEsq] = 0x7FFFFFFF;
@@ -46,15 +46,15 @@ void intercalar (int vet[], int esq, int meio, int dir) {
 }
 
 /* 
-Descricao: essa funcao ordena um vetor de inteiros 
-em ordem crescente com o metodo mergesort
+Descricao: essa funcao ordena um vetor de caracteres 
+em ordem alfabetica com o metodo mergesort
 
-Parametro: um vetor de inteiros (vetor a ser ordenado)
+Parametro: um vetor de caracteres (vetor a ser ordenado)
 e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 */
-void merge (int vet[], int esq, int dir) {
+void merge (char vet[], int esq, int dir) {
 	if (esq < dir) {
-		int meio = (esq + dir) /2;
+		int meio = (esq + dir)/2;
 		merge(vet, esq, meio);
 		merge(vet, meio + 1, dir);
 		intercalar(vet, esq, meio, dir);
@@ -63,12 +63,12 @@ void merge (int vet[], int esq, int dir) {
 
 /*
 Descricao: essa funcao chama pela funcao merge 
-para ordena o vetor em ordem crescente, possuindo 
+para ordena o vetor em ordem alfabetica, possuindo 
 argumentos mais simplificados
 
-Parametro: um vetor de inteiros (vetor a ser ordenado)
+Parametro: um vetor de caracteres (vetor a ser ordenado)
 e um inteiro (tamanho do vetor)
 */
-void mergesort (int vet[], int n) {
+void mergesort (char vet[], int n) {
 	merge (vet, 0, n-1);
 }
