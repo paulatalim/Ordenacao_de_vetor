@@ -1,4 +1,4 @@
-public class selectionFloatCrescente {
+public class selectionFloatDecrescente {
     /*
 	 * Descricao: essa funcao troca dois elementos de um vetor de reais
 	 * Parametros: um vetor de reais (vetor que tera os 
@@ -19,16 +19,16 @@ public class selectionFloatCrescente {
 	 */
 	public static void selectionsort (float[] vet) {
 		for (int i = 0; i < vet.length-1; i ++) {
-			int menor = i;
+			int maior = i;
 
 			for (int j = i + 1; j < vet.length; j++) {
-				if (vet[menor] > vet[j]) {
-					menor = j;
+				if (vet[maior] < vet[j]) {
+					maior = j;
 				}
 			}
 
-			if (i != menor) {
-				swap(vet, i, menor);
+			if (i != maior) {
+				swap(vet, i, maior);
 			}
 		}
 	}

@@ -19,16 +19,16 @@ public class selectionStringCrescente {
 	 */
 	public static void selectionsort (String[] vet) {
 		for (int i = 0; i < vet.length-1; i ++) {
-			int menor = i;
+			int maior = i;
 
 			for (int j = i + 1; j < vet.length; j++) {
-				if (vet[menor].toUpperCase().compareTo(vet[j].toUpperCase()) > 0) {
-					menor = j;
+				if (vet[maior].toUpperCase().compareTo(vet[j].toUpperCase()) < 0) {
+					maior = j;
 				}
 			}
 
-			if (i != menor) {
-				swap(vet, i, menor);
+			if (i != maior) {
+				swap(vet, i, maior);
 			}
 		}
 	}

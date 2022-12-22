@@ -1,4 +1,4 @@
-public class selectionCharCrescente {
+public class selectionCharDecrescente {
     /*
 	 * Descricao: essa funcao troca dois elementos de um vetor de caracteres
 	 * Parametros: um vetor de caracteres (vetor que tera os 
@@ -13,22 +13,22 @@ public class selectionCharCrescente {
     
     /* 
 	 * Descricao: essa funcao ordena um vetor de caracteres
-	 * em ordem alfabetica com o metodo selectionsort
+	 * em ordem decrescente com o metodo selectionsort
 	 * 
 	 * Parametro: um vetor de caracteres (vetor a ser ordenado)
 	 */
 	public static void selectionsort (char[] vet) {
 		for (int i = 0; i < vet.length-1; i ++) {
-			int menor = i;
+			int maior = i;
 
 			for (int j = i + 1; j < vet.length; j++) {
-				if (vet[menor] > vet[j]) {
-					menor = j;
+				if (vet[maior] < vet[j]) {
+					maior = j;
 				}
 			}
 
-			if (i != menor) {
-				swap(vet, i, menor);
+			if (i != maior) {
+				swap(vet, i, maior);
 			}
 		}
 	}
