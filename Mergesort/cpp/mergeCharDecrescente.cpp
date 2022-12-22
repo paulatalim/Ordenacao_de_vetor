@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
-
+#include <iostream>
 /*
 Descricao: apartir de um vetor de caracteres, essa 
 funcao subdivide o vetor em outros dois e intercala 

@@ -1,5 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include <iostream>
 
 /*
 Descricao: apartir de um vetor de inteiros, essa 
