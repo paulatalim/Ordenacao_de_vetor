@@ -10,13 +10,13 @@ public class selectionDoubleDecrescente {
 		vet[i] = vet[j];
 		vet[j] = aux;
 	}
-    
-    /* 
-	 * Descricao: essa funcao ordena um vetor double
-	 * em ordem crescente com o metodo selectionsort
-	 * 
-	 * Parametro: um vetor double (vetor a ser ordenado)
-	 */
+
+	/* 
+	* Descricao: essa funcao ordena um vetor double
+	* em ordem crescente com o metodo selectionsort
+	* 
+	* Parametro: um vetor double (vetor a ser ordenado)
+	*/
 	public static void selectionsort (double[] vet) {
 		for (int i = 0; i < vet.length-1; i ++) {
 			int maior = i;
