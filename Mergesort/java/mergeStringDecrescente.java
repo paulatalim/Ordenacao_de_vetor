@@ -16,8 +16,8 @@ public class mergeStringCrescente {
 		String[] arrayDir = new String[nDir+1];
 
 		//Sentinela no final dos dois arrays
-		arrayEsq[nEsq] = "zzzzzzzzzzzzzzzzzz";
-		arrayDir[nDir] = "zzzzzzzzzzzzzzzzzz";
+		arrayEsq[nEsq] = "AAAAAAAAAAAAAAAAAAAAAAAAAA";
+		arrayDir[nDir] = "AAAAAAAAAAAAAAAAAAAAAAAAAA";
 
 		int iEsq, iDir, i;
 
@@ -33,7 +33,7 @@ public class mergeStringCrescente {
 
 		//Intercalacao propriamente dita
 		for (iEsq = 0, iDir = 0, i = esq; i <= dir; i++){
-			if (arrayEsq[iEsq].toUpperCase().compareTo(arrayDir[iDir].toUpperCase()) <= 0) {
+			if (arrayEsq[iEsq].toUpperCase().compareTo(arrayDir[iDir].toUpperCase()) >= 0) {
 				vet[i] = arrayEsq[iEsq];
 				iEsq++;
 			} else {
@@ -45,7 +45,7 @@ public class mergeStringCrescente {
 
 	/* 
 	* Descricao: essa funcao ordena um vetor de string 
-	* em ordem alfabetica com o metodo mergesort
+	* em ordem decrescente com o metodo mergesort
 	* 
 	* Parametro: um vetor de string (vetor a ser ordenado)
 	* e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
@@ -61,7 +61,7 @@ public class mergeStringCrescente {
 
 	/*
 	* Descricao: essa funcao chama pela funcao merge 
-	* para ordena o vetor em ordem alfabetica, possuindo 
+	* para ordena o vetor em ordem decrescente, possuindo 
 	* argumentos mais simplificados
 	* 
 	* Parametro: um vetor de string (vetor a ser ordenado)
