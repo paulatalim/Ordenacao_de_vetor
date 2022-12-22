@@ -18,8 +18,8 @@ void intercalar (char vet[], int esq, int meio, int dir) {
 	char arrayDir[nDir+1];
 
 	//Sentinela no final dos dois arrays
-	arrayEsq[nEsq] = 0x7FFFFFFF;
-	arrayDir[nDir] = 0x7FFFFFFF;
+	arrayEsq[nEsq] = 'z';
+	arrayDir[nDir] = 'z';
 
 	int iEsq, iDir, i;
 
