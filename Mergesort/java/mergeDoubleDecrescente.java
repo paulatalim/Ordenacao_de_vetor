@@ -1,4 +1,4 @@
-public class mergeDoubleCrescente {
+public class mergeDoubleDedecrescente {
 	/*
 	* Descricao: apartir de um vetor double, essa 
 	* funcao subdivide o vetor em outros dois e intercala 

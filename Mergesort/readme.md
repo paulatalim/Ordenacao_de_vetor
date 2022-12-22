@@ -59,7 +59,7 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 ### *Ordem decrescente*
 - [C](./c/mergeCharDecrescente.c)
 - [C++](./cpp/mergeCharDecrescente.cpp)
-- Java (em breve)
+- [Java](./java/mergeCharDecrescente.java)
 </details>
 
 <details>

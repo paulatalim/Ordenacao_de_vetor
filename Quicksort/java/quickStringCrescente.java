@@ -1,10 +1,10 @@
-public class quickString {
+public class quickStringCrescente {
 	/*
-	 * Descricao: essa funcao troca dois elementos de um vetor de strings
-	 * Parametros: um vetor de strings (vetor que tera os 
-	 * elementos trocados) e dois inteiros (indice dos 
-	 * dois elementos a serem trocados)
-	 */
+	* Descricao: essa funcao troca dois elementos de um vetor de strings
+	* Parametros: um vetor de strings (vetor que tera os 
+	* elementos trocados) e dois inteiros (indice dos 
+	* dois elementos a serem trocados)
+	*/
 	public static void swap (String[] vet, int i, int j) {
 		String aux = vet[i];
 		vet[i] = vet[j];
@@ -12,12 +12,12 @@ public class quickString {
 	}
 
 	/* 
-	 * Descricao: essa funcao ordena um vetor de string 
-	 * em ordem alfabetica com o metodo quicksort
-	 * 
-	 * Parametro: um vetor de string (vetor a ser ordenado) 
-	 * e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
-	 */
+	* Descricao: essa funcao ordena um vetor de string 
+	* em ordem alfabetica com o metodo quicksort
+	* 
+	* Parametro: um vetor de string (vetor a ser ordenado) 
+	* e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
+	*/
 	public static void quick (String[] vet, int esq, int dir) {
 		int i, j, posicao;
 		String pivo;

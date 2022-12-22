@@ -1,19 +1,19 @@
-public class mergeFloatdeCrescente {
+public class mergeCharDecrescente {
 	/*
-	* Descricao: apartir de um vetor de reais, essa 
+	* Descricao: apartir de um vetor de caracteres, essa 
 	* funcao subdivide o vetor em outros dois e intercala 
 	* seus elementos entre si no vetor principal
 	* 
-	* Parametros: um vetor de reais (vetor a ser intercalado) e 
+	* Parametros: um vetor de caracteres (vetor a ser intercalado) e 
 	* 3 inteiros (o primeiro, o ultimo e o indice do elemento do 
 	* meio do vetor)
 	*/
-	public static void intercalar (float[] vet, int esq, int meio, int dir) {
-		int nEsq = (meio - esq) + 1;
+	public static void intercalar (char[] vet, int esq, int meio, int dir) {
+		int nEsq = (meio -esq) + 1;
 		int nDir = dir - meio;
 
-		float[] arrayEsq = new float[nEsq+1];
-		float[] arrayDir = new float[nDir+1];
+		char[] arrayEsq = new char[nEsq+1];
+		char[] arrayDir = new char[nDir+1];
 
 		//Sentinela no final dos dois arrays
 		arrayEsq[nEsq] = -0x7FFFFFFF;
@@ -44,13 +44,13 @@ public class mergeFloatdeCrescente {
 	}
 
 	/* 
-	* Descricao: essa funcao ordena um vetor de reais 
+	* Descricao: essa funcao ordena um vetor de caracteres 
 	* em ordem decrescente com o metodo mergesort
 	* 
-	* Parametro: um vetor de reais (vetor a ser ordenado)
+	* Parametro: um vetor de caracteres (vetor a ser ordenado)
 	* e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 	*/
-	public static void merge (float[] vet, int esq, int dir) {
+	public static void merge (char[] vet, int esq, int dir) {
 		if (esq < dir) {
 			int meio = (esq + dir) /2;
 			merge(vet, esq, meio);
@@ -64,9 +64,9 @@ public class mergeFloatdeCrescente {
 	* para ordena o vetor em ordem decrescente, possuindo 
 	* argumentos mais simplificados
 	* 
-	* Parametro: um vetor de reais (vetor a ser ordenado)
+	* Parametro: um vetor de caracteres (vetor a ser ordenado)
 	*/
-	public static void mergesort (float[] vet) {
+	public static void mergesort (char[] vet) {
 		merge (vet, 0, vet.length-1);
 	}
 
