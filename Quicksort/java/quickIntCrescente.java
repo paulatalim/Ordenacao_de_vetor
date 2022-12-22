@@ -1,12 +1,10 @@
-import java.util.Random;
-
-public class quickInt {
+public class quickIntCrescente {
 	/*
-	 * Descricao: essa funcao troca dois elementos de um vetor de inteiros
-	 * Parametros: um vetor de inteiros (vetor que tera os 
-	 * elementos trocados) e dois inteiros (indice dos 
-	 * dois elementos a serem trocados)
-	 */
+	* Descricao: essa funcao troca dois elementos de um vetor de inteiros
+	* Parametros: um vetor de inteiros (vetor que tera os 
+	* elementos trocados) e dois inteiros (indice dos 
+	* dois elementos a serem trocados)
+	*/
 	public static void swap (int[] vet, int i, int j) {
 		int aux = vet[i];
 		vet[i] = vet[j];
@@ -14,12 +12,12 @@ public class quickInt {
 	}
 
 	/* 
-	 * Descricao: essa funcao ordena um vetor de inteiros 
-	 * em ordem crescente com o metodo quicksort
-	 * 
-	 * Parametro: um vetor de inteiros (vetor a ser ordenado) 
-	 * e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
-	 */
+	* Descricao: essa funcao ordena um vetor de inteiros 
+	* em ordem crescente com o metodo quicksort
+	* 
+	* Parametro: um vetor de inteiros (vetor a ser ordenado) 
+	* e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
+	*/
 	public static void quick (int[] vet, int esq, int dir) {
 		int i, j, posicao;
 		int pivo;
