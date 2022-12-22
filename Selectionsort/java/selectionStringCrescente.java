@@ -1,4 +1,4 @@
-public class selectionString {
+public class selectionStringCrescente {
 	/*
 	 * Descricao: essa funcao troca dois elementos de um vetor de string
 	 * Parametros: um vetor de string (vetor que tera os 

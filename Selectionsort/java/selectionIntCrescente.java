@@ -1,4 +1,4 @@
-public class selectionInt {
+public class selectionIntCrescente {
     /*
 	 * Descricao: essa funcao troca dois elementos de um vetor de inteiros
 	 * Parametros: um vetor de inteiros (vetor que tera os 
