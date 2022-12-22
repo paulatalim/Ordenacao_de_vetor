@@ -11,12 +11,12 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 
 ### *Ordem crescente*
 - [C](./c/mergeIntCrescente.c)
-- C++ (em breve)
+- [C++](./cpp/mergeIntCrescente.cpp)
 - [Java](./java/mergeIntCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/mergeIntDecrescente.c)
-- C++ (em breve)
+- [C++](./cpp/mergeIntDecrescente.cpp)
 - Java (em breve)
 </details>
 
@@ -25,12 +25,12 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 
 ### *Ordem crescente*
 - [C](./c/mergeFloatCrescente.c)
-- C++ (em breve)
+- [C++](./cpp/mergeFloatCrescente.cpp)
 - [Java](./java/mergeFloatCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/mergeFloatDecrescente.c)
-- C++ (em breve)
+- [C++](./cpp/mergeFloatDecrescente.cpp)
 - Java (em breve)
 </details>
 
@@ -39,12 +39,12 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 
 ### *Ordem crescente*
 - [C](./c/mergeDoubleCrescente.c)
-- C++ (em breve)
+- [C++](./cpp/mergeDoubleCrescente.cpp)
 - [Java](./java/mergeDoubleCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/mergeDoubleDecrescente.c)
-- C++ (em breve)
+- [C++](./cpp/mergeDoubleDecrescente.cpp)
 - Java (em breve)
 </details>
 
@@ -53,12 +53,12 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 
 ### *Ordem crescente*
 - [C](./c/mergeCharCrescente.c)
-- C++ (em breve)
+- [C++](./cpp/mergeCharCrescente.cpp)
 - [Java](./java/mergeCharCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/mergeCharDecrescente.c)
-- C++ (em breve)
+- [C++](./cpp/mergeCharDecrescente.cpp)
 - Java (em breve)
 </details>
 
@@ -105,4 +105,4 @@ mergesort(vetor_a_ser_ordenado);
 ```
 
 ## Modo desenvolvedor
-Para a execussão dos códigos é aconselhável que os códigos em [C](./c) e C++ sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as extensões adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).
+Para a execussão dos códigos é aconselhável que os códigos em [C](./c) e [C++](./cpp) sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as extensões adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).
