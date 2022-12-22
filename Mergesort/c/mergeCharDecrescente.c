@@ -18,8 +18,8 @@ void intercalar (char vet[], int esq, int meio, int dir) {
 	char arrayDir[nDir+1];
 
 	//Sentinela no final dos dois arrays
-	arrayEsq[nEsq] = 0x7FFFFFFF;
-	arrayDir[nDir] = 0x7FFFFFFF;
+	arrayEsq[nEsq] = -0x7FFFFFFF;
+	arrayDir[nDir] = -0x7FFFFFFF;
 
 	int iEsq, iDir, i;
 
@@ -35,7 +35,7 @@ void intercalar (char vet[], int esq, int meio, int dir) {
 
 	//Intercalacao propriamente dita
 	for (iEsq = 0, iDir = 0, i = esq; i <= dir; i++){
-		if (arrayEsq[iEsq] <= arrayDir[iDir]) {
+		if (arrayEsq[iEsq] >= arrayDir[iDir]) {
 			vet[i] = arrayEsq[iEsq];
 			iEsq++;
 		} else {
@@ -47,7 +47,7 @@ void intercalar (char vet[], int esq, int meio, int dir) {
 
 /* 
 Descricao: essa funcao ordena um vetor de caracteres 
-em ordem alfabetica com o metodo mergesort
+em ordem descrescente com o metodo mergesort
 
 Parametro: um vetor de caracteres (vetor a ser ordenado)
 e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
@@ -63,7 +63,7 @@ void merge (char vet[], int esq, int dir) {
 
 /*
 Descricao: essa funcao chama pela funcao merge 
-para ordena o vetor em ordem alfabetica, possuindo 
+para ordena o vetor em ordem decrescente, possuindo 
 argumentos mais simplificados
 
 Parametro: um vetor de caracteres (vetor a ser ordenado)
