@@ -17,7 +17,7 @@ public class selectionIntDecrescente {
 	* 
 	* Parametro: um vetor de inteiros (vetor a ser ordenado)
 	*/
-	public static void selectionsort (int vet[]) {
+	public static void selectionsort (int[] vet) {
 		for (int i = 0; i < vet.length-1; i ++) {
 			int maior = i;
 
