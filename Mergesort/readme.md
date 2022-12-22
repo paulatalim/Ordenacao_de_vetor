@@ -15,7 +15,7 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 - [Java](./java/mergeIntCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/mergeIntDecrescente.c)
 - C++ (em breve)
 - Java (em breve)
 </details>
@@ -24,12 +24,12 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 <summary>Ordenando vetor Float</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/mergeFloatCrescente.c)
 - C++ (em breve)
 - [Java](./java/mergeFloatCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/mergeFloatDecrescente.c)
 - C++ (em breve)
 - Java (em breve)
 </details>
@@ -38,12 +38,12 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 <summary>Ordenando vetor Double</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/mergeDoubleCrescente.c)
 - C++ (em breve)
 - [Java](./java/mergeDoubleCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/mergeDoubleDecrescente.c)
 - C++ (em breve)
 - Java (em breve)
 </details>
@@ -52,12 +52,12 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 <summary>Ordenando vetor de caracteres</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/mergeCharCrescente.c)
 - C++ (em breve)
 - [Java](./java/mergeCharCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/mergeCharDecrescente.c)
 - C++ (em breve)
 - Java (em breve)
 </details>
