@@ -51,8 +51,8 @@ public class heapsortFloatCrescente {
 	}
 
 	/*
-	* Descricao: essa funcao reconstroi um vetor 
-	* de numeros de inteiros com a arvore heap ja construida 
+	* Descricao: essa funcao reconstroi um vetor de reais
+	* com a arvore heap ja construida 
 	* 
 	* Parametros: vetor de reais (vetor a ser reconstruido) 
 	* e um inteiro (tamanho valido do vetor)
@@ -82,8 +82,8 @@ public class heapsortFloatCrescente {
 	}
 
 	/* 
-	* Descricao: essa funcao ordena um vetor com numeros 
-	* do tipo inteiro em ordem crescente com o metodo HeapSort
+	* Descricao: essa funcao ordena um vetor de reais
+	* em ordem crescente com o metodo HeapSort
 	* 
 	* Parametro: um vetor de reais (vetor a ser ordenado)
 	*/
