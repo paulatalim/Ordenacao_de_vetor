@@ -1,4 +1,4 @@
-public class quickCharCrescente {
+public class quickCharDecrescente {
 	/*
 	* Descricao: essa funcao troca dois elementos de um vetor de caracteres
 	* Parametros: um vetor de caracteres (vetor que tera os 
@@ -13,7 +13,7 @@ public class quickCharCrescente {
 
 	/* 
 	* Descricao: essa funcao ordena um vetor de caracteres 
-	* em ordem alfabetica com o metodo quicksort
+	* em ordem decrescente com o metodo quicksort
 	* 
 	* Parametro: um vetor de caracteres (vetor a ser ordenado) 
 	* e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
@@ -28,11 +28,11 @@ public class quickCharCrescente {
 		pivo = vet[posicao];
 
 		while (i <= j) {
-			while (vet[i] < pivo) {
+			while (vet[i] > pivo) {
 				i ++;
 			}
 
-			while (vet[j] > pivo) {
+			while (vet[j] < pivo) {
 				j --;
 			}
 
@@ -55,7 +55,7 @@ public class quickCharCrescente {
 
 	/*
 	* Descricao: essa funcao chama pela funcao quick 
-	* para ordena o vetor em ordem alfabetica, possuindo 
+	* para ordena o vetor em ordem decrescente, possuindo 
 	* argumentos mais simplificados
 	* 
 	* Parametro: um vetor de caracteres (vetor a ser ordenado) 

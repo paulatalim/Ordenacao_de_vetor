@@ -13,7 +13,7 @@ public class quickIntCrescente {
 
 	/* 
 	* Descricao: essa funcao ordena um vetor de inteiros 
-	* em ordem crescente com o metodo quicksort
+	* em ordem decrescente com o metodo quicksort
 	* 
 	* Parametro: um vetor de inteiros (vetor a ser ordenado) 
 	* e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
@@ -28,11 +28,11 @@ public class quickIntCrescente {
 		pivo = vet[posicao];
 
 		while (i <= j) {
-			while (vet[i] < pivo) {
+			while (vet[i] > pivo) {
 				i ++;
 			}
 
-			while (vet[j] > pivo) {
+			while (vet[j] < pivo) {
 				j --;
 			}
 
@@ -55,7 +55,7 @@ public class quickIntCrescente {
 
 	/*
 	* Descricao: essa funcao chama pela funcao quick 
-	* para ordena o vetor em ordem crescente, possuindo 
+	* para ordena o vetor em ordem decrescente, possuindo 
 	* argumentos mais simplificados
 	* 
 	* Parametro: um vetor de inteiros (vetor a ser ordenado) 

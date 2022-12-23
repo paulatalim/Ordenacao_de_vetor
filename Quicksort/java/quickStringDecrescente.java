@@ -1,4 +1,4 @@
-public class quickStringCrescente {
+public class quickStringDecrescente {
 	/*
 	* Descricao: essa funcao troca dois elementos de um vetor de strings
 	* Parametros: um vetor de strings (vetor que tera os 
@@ -13,7 +13,7 @@ public class quickStringCrescente {
 
 	/* 
 	* Descricao: essa funcao ordena um vetor de string 
-	* em ordem alfabetica com o metodo quicksort
+	* em ordem decrescente com o metodo quicksort
 	* 
 	* Parametro: um vetor de string (vetor a ser ordenado) 
 	* e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
@@ -29,12 +29,12 @@ public class quickStringCrescente {
 
 		while (i <= j) {
 			//Verifica se o elemento a esquerda eh menor que o pivo
-			while (vet[i].toUpperCase().compareTo(pivo.toUpperCase()) < 0) {
+			while (vet[i].toUpperCase().compareTo(pivo.toUpperCase()) > 0) {
 				i ++;
 			}
 
 			//Verifica se os elementos a direita eh maior que o pivo
-			while (vet[j].toUpperCase().compareTo(pivo.toUpperCase()) > 0) {
+			while (vet[j].toUpperCase().compareTo(pivo.toUpperCase()) < 0) {
 				j --;
 			}
 
@@ -61,7 +61,7 @@ public class quickStringCrescente {
 
 	/*
 	* Descricao: essa funcao chama pela funcao quick 
-	* para ordena o vetor em ordem alfabetica, possuindo 
+	* para ordena o vetor em ordem decrescente, possuindo 
 	* argumentos mais simplificados
 	* 
 	* Parametro: um vetor de string (vetor a ser ordenado)
