@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 /*
 Descricao: esse procedimento troca dois elementos de um vetor
 

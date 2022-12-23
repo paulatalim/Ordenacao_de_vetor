@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
 
 /*
 Descricao: esse procedimento troca dois elementos de um vetor
