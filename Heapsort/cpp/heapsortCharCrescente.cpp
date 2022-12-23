@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 /*
 Descricao: esse procedimento troca dois elementos de um vetor
 
@@ -55,8 +53,8 @@ void construir (char vet[], int tam) {
 }
 
 /*
-Descricao: esse procedimento reconstroi um vetor 
-de numeros inteiros com a arvore heap ja construida 
+Descricao: esse procedimento reconstroi um vetor de caracteres
+com a arvore heap ja construida 
 
 Parametros: vetor de caracteres (vetor a ser reconstruido) 
 e um inteiro (tamanho valido do vetor)
@@ -86,8 +84,8 @@ void reconstruir (char vet[], int tam) {
 }
 
 /* 
-Descricao: esse procedimento ordena um vetor com numeros 
-inteiros em ordem alfabetica com o metodo HeapSort
+Descricao: esse procedimento ordena um vetor de caracteres
+em ordem alfabetica com o metodo HeapSort
 
 Parametro: um vetor de caracteres (vetor a ser ordenado)
 */
