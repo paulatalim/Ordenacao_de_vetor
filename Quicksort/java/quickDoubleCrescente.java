@@ -1,26 +1,26 @@
-public class quickIntCrescente {
+public class quickDoubleCrescente {
 	/*
-	* Descricao: essa funcao troca dois elementos de um vetor de inteiros
-	* Parametros: um vetor de inteiros (vetor que tera os 
+	* Descricao: essa funcao troca dois elementos de um vetor de double
+	* Parametros: um vetor de double (vetor que tera os 
 	* elementos trocados) e dois inteiros (indice dos 
 	* dois elementos a serem trocados)
 	*/
-	public static void swap (int[] vet, int i, int j) {
-		int aux = vet[i];
+	public static void swap (double[] vet, int i, int j) {
+		double aux = vet[i];
 		vet[i] = vet[j];
 		vet[j] = aux;
 	}
 
 	/* 
-	* Descricao: essa funcao ordena um vetor de inteiros 
+	* Descricao: essa funcao ordena um vetor de double 
 	* em ordem crescente com o metodo quicksort
 	* 
-	* Parametro: um vetor de inteiros (vetor a ser ordenado) 
+	* Parametro: um vetor de double (vetor a ser ordenado) 
 	* e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 	*/
-	public static void quick (int[] vet, int esq, int dir) {
+	public static void quick (double[] vet, int esq, int dir) {
 		int i, j, posicao;
-		int pivo;
+		double pivo;
 		
 		i = esq;
 		j = dir;
@@ -58,9 +58,9 @@ public class quickIntCrescente {
 	* para ordena o vetor em ordem crescente, possuindo 
 	* argumentos mais simplificados
 	* 
-	* Parametro: um vetor de inteiros (vetor a ser ordenado) 
+	* Parametro: um vetor de double (vetor a ser ordenado) 
 	*/
-	public static void quicksort (int[] vet) {
+	public static void quicksort (double[] vet) {
 		quick (vet, 0, vet.length-1);
 	}
 }

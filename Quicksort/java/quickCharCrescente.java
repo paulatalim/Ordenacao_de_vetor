@@ -1,26 +1,26 @@
-public class quickIntCrescente {
+public class quickCharCrescente {
 	/*
-	* Descricao: essa funcao troca dois elementos de um vetor de inteiros
-	* Parametros: um vetor de inteiros (vetor que tera os 
+	* Descricao: essa funcao troca dois elementos de um vetor de caracteres
+	* Parametros: um vetor de caracteres (vetor que tera os 
 	* elementos trocados) e dois inteiros (indice dos 
 	* dois elementos a serem trocados)
 	*/
-	public static void swap (int[] vet, int i, int j) {
-		int aux = vet[i];
+	public static void swap (char[] vet, int i, int j) {
+		char aux = vet[i];
 		vet[i] = vet[j];
 		vet[j] = aux;
 	}
 
 	/* 
-	* Descricao: essa funcao ordena um vetor de inteiros 
-	* em ordem crescente com o metodo quicksort
+	* Descricao: essa funcao ordena um vetor de caracteres 
+	* em ordem alfabetica com o metodo quicksort
 	* 
-	* Parametro: um vetor de inteiros (vetor a ser ordenado) 
+	* Parametro: um vetor de caracteres (vetor a ser ordenado) 
 	* e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 	*/
-	public static void quick (int[] vet, int esq, int dir) {
+	public static void quick (char[] vet, int esq, int dir) {
 		int i, j, posicao;
-		int pivo;
+		char pivo;
 		
 		i = esq;
 		j = dir;
@@ -55,12 +55,12 @@ public class quickIntCrescente {
 
 	/*
 	* Descricao: essa funcao chama pela funcao quick 
-	* para ordena o vetor em ordem crescente, possuindo 
+	* para ordena o vetor em ordem alfabetica, possuindo 
 	* argumentos mais simplificados
 	* 
-	* Parametro: um vetor de inteiros (vetor a ser ordenado) 
+	* Parametro: um vetor de caracteres (vetor a ser ordenado) 
 	*/
-	public static void quicksort (int[] vet) {
+	public static void quicksort (char[] vet) {
 		quick (vet, 0, vet.length-1);
 	}
 }
