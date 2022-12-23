@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
 
 /*
 Descricao: essa funcao troca dois elementos de um vetor de reais
