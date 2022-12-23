@@ -55,8 +55,8 @@ void construir (double vet[], int tam) {
 }
 
 /*
-Descricao: esse procedimento reconstroi um vetor 
-de numeros inteiros com a arvore heap ja construida 
+Descricao: esse procedimento reconstroi um vetor double
+com a arvore heap ja construida 
 
 Parametros: vetor double (vetor a ser reconstruido) 
 e um inteiro (tamanho valido do vetor)
@@ -86,8 +86,8 @@ void reconstruir (double vet[], int tam) {
 }
 
 /* 
-Descricao: esse procedimento ordena um vetor com numeros 
-inteiros em ordem crescente com o metodo HeapSort
+Descricao: esse procedimento ordena um vetor double
+em ordem crescente com o metodo HeapSort
 
 Parametro: um vetor double (vetor a ser ordenado)
 */
