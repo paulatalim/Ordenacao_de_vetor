@@ -15,23 +15,23 @@ void swap (double vet[], int i, int j) {
 
 /* 
 Descricao: essa funcao ordena um vetor de double
-em ordem crescente com o metodo selectionsort
+em ordem decrescente com o metodo selectionsort
 
 Parametro: um vetor de double (vetor a ser ordenado)
 e um inteiro (tamanho do vetor)
 */
 void selectionsort (double vet[], int n) {
 	for (int i = 0; i < n-1; i ++) {
-		int menor = i;
+		int maior = i;
 
 		for (int j = i + 1; j < n; j++) {
-			if (vet[menor] > vet[j]) {
-				menor = j;
+			if (vet[maior] < vet[j]) {
+				maior = j;
 			}
 		}
 
-		if (i != menor) {
-			swap(vet, i, menor);
+		if (i != maior) {
+			swap(vet, i, maior);
 		}
 	}
 }
