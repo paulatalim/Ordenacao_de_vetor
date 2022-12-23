@@ -10,56 +10,56 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 <summary>Ordenando vetor de inteiros</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- [Java](./java/mergeInt.java)
+- [C](./c/mergeIntCrescente.c)
+- [C++](./cpp/mergeIntCrescente.cpp)
+- [Java](./java/mergeIntCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/mergeIntDecrescente.c)
+- [C++](./cpp/mergeIntDecrescente.cpp)
+- [Java](./java/mergeIntDecrescente.java)
 </details>
 
 <details>
 <summary>Ordenando vetor Float</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/mergeFloatCrescente.c)
+- [C++](./cpp/mergeFloatCrescente.cpp)
+- [Java](./java/mergeFloatCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/mergeFloatDecrescente.c)
+- [C++](./cpp/mergeFloatDecrescente.cpp)
+- [Java](./java/mergeFloatDecrescente.java)
 </details>
 
 <details>
 <summary>Ordenando vetor Double</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/mergeDoubleCrescente.c)
+- [C++](./cpp/mergeDoubleCrescente.cpp)
+- [Java](./java/mergeDoubleCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/mergeDoubleDecrescente.c)
+- [C++](./cpp/mergeDoubleDecrescente.cpp)
+- [Java](./java/mergeDoubleDecrescente.java)
 </details>
 
 <details>
 <summary>Ordenando vetor de caracteres</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/mergeCharCrescente.c)
+- [C++](./cpp/mergeCharCrescente.cpp)
+- [Java](./java/mergeCharCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/mergeCharDecrescente.c)
+- [C++](./cpp/mergeCharDecrescente.cpp)
+- [Java](./java/mergeCharDecrescente.java)
 </details>
 
 <details>
@@ -67,11 +67,11 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 
 ### *Ordem crescente*
 - C++ (em breve)
-- [Java](./java/mergeString.java)
+- [Java](./java/mergeStringCrescente.java)
 
 ### *Ordem decrescente*
 - C++ (em breve)
-- Java (em breve)
+- [Java](./java/mergeStringDecrescente.java)
 </details>
 
 ## Implantação do algoritmo
@@ -96,13 +96,5 @@ mergesort(nome_do_vetor);
 >
 > Os argumentos das funções podem mudar de acordo com a liguagem de programação utilizada.
 
-
-## Como usar
-No lugar onde deseja ordenar o vetor chame pela função mergesort passando por parametro o vetor que deseja ser ordenado
-
-```
-mergesort(vetor_a_ser_ordenado);
-```
-
 ## Modo desenvolvedor
-Para a execussão dos códigos é aconselhável que os códigos em C e C++ sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as extensões adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).
+Para a execussão dos códigos é aconselhável que os códigos em [C](./c) e [C++](./cpp) sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as extensões adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).

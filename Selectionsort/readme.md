@@ -10,56 +10,56 @@ Nesse diretório há códigos, os quais executam o selectionsort, ordenando vár
 <summary>Ordenando vetor de inteiros</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- [Java](./java/selectionInt.java)
+- [C](./c/selectionIntCrescente.c)
+- [C++](./cpp/selectionIntCrescente.cpp)
+- [Java](./java/selectionIntCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/selectionIntDecrescente.c)
+- [C++](./cpp/selectionIntDecrescente.cpp)
+- [Java](./java/selectionIntDecrescente.java)
 </details>
 
 <details>
-<summary> Ordenando vetor Float</summary>
+<summary>Ordenando vetor Float</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/selectionFloatCrescente.c)
+- [C++](./cpp/selectionFloatCrescente.cpp)
+- [Java](./java/selectionFloatCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/selectionFloatDecrescente.c)
+- [C++](./cpp/selectionFloatDecrescente.cpp)
+- [Java](./java/selectionFloatDecrescente.java)
 </details>
 
 <details>
 <summary>Ordenando vetor Double</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/selectionDoubleCrescente.c)
+- [C++](./cpp/selectionDoubleCrescente.cpp)
+- [Java](./java/selectionDoubleCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/selectionDoubleDecrescente.c)
+- [C++](./cpp/selectionDoubleDecrescente.cpp)
+- [Java](./java/selectionDoubleDecrescente.java)
 </details>
 
 <details>
 <summary>Ordenando vetor de caracteres</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/selectionCharCrescente.c)
+- [C++](./cpp/selectionCharCrescente.cpp)
+- [Java](./java/selectionCharCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/selectionCharDecrescente.c)
+- [C++](./cpp/selectionCharDecrescente.cpp)
+- [Java](./java/selectionCharDecrescente.java)
 </details> 
 
 <details>
@@ -67,11 +67,11 @@ Nesse diretório há códigos, os quais executam o selectionsort, ordenando vár
 
 ### *Ordem crescente*
 - C++ (em breve)
-- [Java](./java/selectionString.java)
+- [Java](./java/selectionStringCrescente.java)
 
 ### *Ordem decrescente*
 - C++ (em breve)
-- Java (em breve)
+- [Java](./java/selectionStringDecrescente.java)
 </details>
 
 ## Implantação do algoritmo
@@ -98,4 +98,4 @@ selectionsort(nome_do_vetor);
 
 ## Modo desenvolvedor
 
-Para a execussão dos códigos é aconselhável que os códigos em C e C++ sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as extensões adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).
+Para a execussão dos códigos é aconselhável que os códigos em [C](./c) e C++ sejam executados na [IDE Code::Blocks](https://www.codeblocks.org/) ou no [Visual Studio Code](https://code.visualstudio.com/) (caso possua as extensões adequadas instaladas) e os códigos em [Java](./java) na [IDE Eclipse](https://www.eclipse.org/), no cmd ou no [Visual Studio Code](https://code.visualstudio.com/).

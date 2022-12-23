@@ -10,56 +10,56 @@ Nesse diretório há códigos, os quais executam o insertionsort, ordenando vár
 <summary>Ordenando vetor de inteiros</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- [Java](./java/insertionInt.java)
+- [C](./c/insertionIntCrescente.c)
+- [C++](./cpp/insertionIntCrescente.cpp)
+- [Java](./java/insertionIntCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/insertionIntDecrescente.c)
+- [C++](./cpp/insertionIntDecrescente.cpp)
+- [Java](./java/insertionIntDecrescente.java)
 </details>
 
 <details>
-<summary> Ordenando vetor Float</summary>
+<summary>Ordenando vetor Float</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/insertionFloatCrescente.c)
+- [C++](./cpp/insertionFloatCrescente.cpp)
+- [Java](./java/insertionFloatCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/insertionFloatDecrescente.c)
+- [C++](./cpp/insertionFloatDecrescente.cpp)
+- [Java](./java/insertionFloatDecrescente.java)
 </details>
 
 <details>
 <summary>Ordenando vetor Double</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/insertionDoubleCrescente.c)
+- [C++](./cpp/insertionDoubleCrescente.cpp)
+- [Java](./java/insertionDoubleCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/insertionDoubleDecrescente.c)
+- [C++](./cpp/insertionCharCrescente.cpp)
+- [Java](./java/insertionDoubleDecrescente.java)
 </details>
 
 <details>
 <summary>Ordenando vetor de caracteres</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/insertionCharCrescente.c)
+- [C++](./cpp/insertionCharCrescente.cpp)
+- [Java](./java/insertionCharCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/insertionCharDecrescente.c)
+- [C++](./cpp/insertionCharDecrescente.cpp)
+- [Java](./java/insertionCharDecrescente.java)
 </details> 
 
 <details>
@@ -67,11 +67,11 @@ Nesse diretório há códigos, os quais executam o insertionsort, ordenando vár
 
 ### *Ordem crescente*
 - C++ (em breve)
-- [Java](./java/insertionString.java)
+- [Java](./java/insertionStringCrescente.java)
 
 ### *Ordem decrescente*
 - C++ (em breve)
-- Java (em breve)
+- [Java](./java/insertionStringDecrescente.java)
 </details>
 
 ## Implantação do algoritmo

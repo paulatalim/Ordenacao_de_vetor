@@ -10,56 +10,56 @@ Nesse diretório há códigos, os quais executam o quicksort, ordenando vários 
 <summary>Ordenando vetor de inteiros</summary>
 
 ### *Ordem crescente*
-- [C](./c/quickInt.c)
-- C++ (em breve)
-- [Java](./java/quickInt.java)
+- [C](./c/quickIntCrescente.c)
+- [C++](./cpp/quickIntCrescente.cpp)
+- [Java](./java/quickIntCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/quickIntDecrescente.c)
+- [C++](./cpp/quickIntDecrescente.cpp)
+- [Java](./java/quickIntDecrescente.java)
 </details>
 
 <details>
 <summary> Ordenando vetor Float</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/quickFloatCrescente.c)
+- [C++](./cpp/quickFloatCrescente.cpp)
+- [Java](./java/quickFloatCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/quickFloatDecrescente.c)
+- [C++](./cpp/quickFloatDecrescente.cpp)
+- [Java](./java/quickFloatDecrescente.java)
 </details>
 
 <details>
 <summary>Ordenando vetor Double</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/quickDoubleCrescente.c)
+- [C++](./cpp/quickDoubleCrescente.cpp)
+- [Java](./java/quickDoubleCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/quickDoubleDecrescente.c)
+- [C++](./cpp/quickDoubleDecrescente.cpp)
+- [Java](./java/quickDoubleDecrescente.java)
 </details>
 
 <details>
 <summary>Ordenando vetor de caracteres</summary>
 
 ### *Ordem crescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/quickCharCrescente.c)
+- [C++](./cpp/quickCharCrescente.cpp)
+- [Java](./java/quickCharCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
-- C++ (em breve)
-- Java (em breve)
+- [C](./c/quickCharDecrescente.c)
+- [C++](./cpp/quickCharDecrescente.cpp)
+- [Java](./java/quickCharDecrescente.java)
 </details> 
 
 <details>
@@ -67,11 +67,11 @@ Nesse diretório há códigos, os quais executam o quicksort, ordenando vários 
 
 ### *Ordem crescente*
 - C++ (em breve)
-- [Java](./java/quickString.java)
+- [Java](./java/quickStringCrescente.java)
 
 ### *Ordem decrescente*
 - C++ (em breve)
-- Java (em breve)
+- [Java](./java/quickStringDecrescente.java)
 </details>
 
 ## Implantação do algoritmo
