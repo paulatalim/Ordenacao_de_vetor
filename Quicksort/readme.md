@@ -11,12 +11,12 @@ Nesse diretório há códigos, os quais executam o quicksort, ordenando vários 
 
 ### *Ordem crescente*
 - [C](./c/quickIntCrescente.c)
-- C++ (em breve)
+- [C++](./cpp/quickIntCrescente.cpp)
 - [Java](./java/quickIntCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/quickIntDecrescente.c)
-- C++ (em breve)
+- [C++](./cpp/quickIntDecrescente.cpp)
 - [Java](./java/quickIntDecrescente.java)
 </details>
 
@@ -25,12 +25,12 @@ Nesse diretório há códigos, os quais executam o quicksort, ordenando vários 
 
 ### *Ordem crescente*
 - [C](./c/quickFloatCrescente.c)
-- C++ (em breve)
+- [C++](./cpp/quickFloatCrescente.cpp)
 - [Java](./java/quickFloatCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/quickFloatDecrescente.c)
-- C++ (em breve)
+- [C++](./cpp/quickFloatDecrescente.cpp)
 - [Java](./java/quickFloatDecrescente.java)
 </details>
 
@@ -39,12 +39,12 @@ Nesse diretório há códigos, os quais executam o quicksort, ordenando vários 
 
 ### *Ordem crescente*
 - [C](./c/quickDoubleCrescente.c)
-- C++ (em breve)
+- [C++](./cpp/quickDoubleCrescente.cpp)
 - [Java](./java/quickDoubleCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/quickDoubleDecrescente.c)
-- C++ (em breve)
+- [C++](./cpp/quickDoubleDecrescente.cpp)
 - [Java](./java/quickDoubleDecrescente.java)
 </details>
 
@@ -53,12 +53,12 @@ Nesse diretório há códigos, os quais executam o quicksort, ordenando vários 
 
 ### *Ordem crescente*
 - [C](./c/quickCharCrescente.c)
-- C++ (em breve)
+- [C++](./cpp/quickCharCrescente.cpp)
 - [Java](./java/quickCharCrescente.java)
 
 ### *Ordem decrescente*
 - [C](./c/quickCharDecrescente.c)
-- C++ (em breve)
+- [C++](./cpp/quickCharDecrescente.cpp)
 - [Java](./java/quickCharDecrescente.java)
 </details> 
 
