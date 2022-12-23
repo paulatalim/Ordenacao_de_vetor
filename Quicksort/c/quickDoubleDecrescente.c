@@ -15,7 +15,7 @@ void swap (double vet[], int i, int j) {
 
 /* 
 Descricao: esse procedimento ordena um vetor de double 
-em ordem crescente com o metodo quicksort
+em ordem decrescente com o metodo quicksort
 
 Parametro: um vetor de double (vetor a ser ordenado) 
 e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
@@ -30,11 +30,11 @@ void quick (double vet[], int esq, int dir) {
     pivo = vet[posicao];
 
     while (i <= j) {
-        while (vet[i] < pivo) {
+        while (vet[i] > pivo) {
             i ++;
         }
 
-        while (vet[j] > pivo) {
+        while (vet[j] < pivo) {
             j --;
         }
 
@@ -57,7 +57,7 @@ void quick (double vet[], int esq, int dir) {
 
 /*
 Descricao: esse procedimento chama pelo procedimento quick 
-para ordena o vetor em ordem crescente, possuindo 
+para ordena o vetor em ordem decrescente, possuindo 
 argumentos mais simplificados
 
 Parametro: um vetor de double (vetor a ser ordenado) 

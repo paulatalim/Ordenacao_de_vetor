@@ -23,6 +23,7 @@ e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 void quick (int vet[], int esq, int dir) {
     int i, j, posicao;
     int pivo;
+    
     i = esq;
     j = dir;
     posicao = (esq + dir) / 2;
