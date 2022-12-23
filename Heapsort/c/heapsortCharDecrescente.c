@@ -40,7 +40,7 @@ void construir (char vet[], int tam) {
     int indice = indice_pai(tam);
     int i = tam;
 
-    while (i > 0 && vet[i] > vet[indice]) {
+    while (i > 0 && vet[i] < vet[indice]) {
         swap (vet, i, indice);
 
         i = indice_pai(i);
@@ -67,15 +67,15 @@ void reconstruir (char vet[], int tam) {
 
     //Verifica se ainda possui filhos
     while(i <= meio) {
-        //Seleciona o maior filho
-        if (2 * i + 1 == tam || vet[2 * i + 1] > vet[2 * i + 2]) {
+        //Seleciona o menor filho
+        if (2 * i + 1 == tam || vet[2 * i + 1] < vet[2 * i + 2]) {
             filho = 2 * i + 1;
         } else {
             filho = 2 * i + 2;
         }
 
         //Reconstroi o vetor
-        if (vet[i] < vet[filho]) {
+        if (vet[i] > vet[filho]) {
             swap (vet, i, filho);
             i = filho;
         } else {
@@ -86,7 +86,7 @@ void reconstruir (char vet[], int tam) {
 
 /* 
 Descricao: esse procedimento ordena um vetor com numeros 
-inteiros em ordem alfabetica com o metodo HeapSort
+inteiros em ordem decrescente com o metodo HeapSort
 
 Parametro: um vetor de caracteres (vetor a ser ordenado)
 */

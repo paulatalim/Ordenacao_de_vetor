@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 /*
 Descricao: esse procedimento troca dois elementos de um vetor
@@ -25,7 +24,7 @@ int indice_pai (int filho) {
 
     filho /= 2;
 
-    if (flag %2 == 0) {
+    if (flag % 2 == 0) {
         filho --;
     }
     return filho;

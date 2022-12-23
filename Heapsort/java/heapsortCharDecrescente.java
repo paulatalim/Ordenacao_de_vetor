@@ -1,12 +1,12 @@
-public class heapsortFloatCrescente {
+public class heapsortCharDecrescente {
 	/*
-	* Descricao: essa funcao troca dois elementos de um vetor de reais
-	* Parametros: um vetor de reais (vetor que tera os 
+	* Descricao: essa funcao troca dois elementos de um vetor de caracteres
+	* Parametros: um vetor de caracteres (vetor que tera os 
 	* elementos trocados) e dois inteiros (indice dos 
 	* dois elementos a serem trocados)
 	*/
-	public static void swap (float[] vet, int i, int j) {
-		float aux = vet[i];
+	public static void swap (char[] vet, int i, int j) {
+		char aux = vet[i];
 		vet[i] = vet[j];
 		vet[j] = aux;
 	}
@@ -28,16 +28,16 @@ public class heapsortFloatCrescente {
 	}
 
 	/* 
-	* Descricao: essa funcao constroi o heap de um vetor de reais
+	* Descricao: essa funcao constroi o heap de um vetor de caracteres
 	* 
-	* Parametros: um vetor de reais (vetor a ser construido 
+	* Parametros: um vetor de caracteres (vetor a ser construido 
 	* a arvore heap) e um inteiro (tamanho valido do vetor)
 	*/
-	public static void construir (float[] vet, int tam) {
+	public static void construir (char[] vet, int tam) {
 		int indice = indice_pai(tam);
 		int i = tam;
 
-		while (i > 0 && vet[i] > vet[indice]) {
+		while (i > 0 && vet[i] < vet[indice]) {
 			swap (vet, i, indice);
 
 			i = indice_pai(i);
@@ -51,13 +51,13 @@ public class heapsortFloatCrescente {
 	}
 
 	/*
-	* Descricao: essa funcao reconstroi um vetor de reais
+	* Descricao: essa funcao reconstroi um vetor de caracteres
 	* com a arvore heap ja construida 
 	* 
-	* Parametros: vetor de reais (vetor a ser reconstruido) 
+	* Parametros: vetor de caracteres (vetor a ser reconstruido) 
 	* e um inteiro (tamanho valido do vetor)
 	*/
-	public static void reconstruir (float[] vet, int tam) {
+	public static void reconstruir (char[] vet, int tam) {
 		int filho;
 		int meio = indice_pai(tam);
 		int i = 0;
@@ -65,14 +65,14 @@ public class heapsortFloatCrescente {
 		//Verifica se ainda possui filhos
 		while(i <= meio) {
 			//Seleciona o maior filho
-			if (2*i+1 == tam || vet[2*i+1] > vet[2*i+2]) {
+			if (2*i+1 == tam || vet[2*i+1] < vet[2*i+2]) {
 				filho = 2*i+1;
 			} else {
 				filho = 2*i + 2;
 			}
 
 			//reconstroi o vetor
-			if (vet[i] < vet[filho]) {
+			if (vet[i] > vet[filho]) {
 				swap (vet, i, filho);
 				i = filho;
 			} else {
@@ -82,12 +82,12 @@ public class heapsortFloatCrescente {
 	}
 
 	/* 
-	* Descricao: essa funcao ordena um vetor de reais
-	* em ordem crescente com o metodo HeapSort
+	* Descricao: essa funcao ordena um vetor de caracteres
+	* em ordem decrescente com o metodo HeapSort
 	* 
-	* Parametro: um vetor de reais (vetor a ser ordenado)
+	* Parametro: um vetor de caracteres (vetor a ser ordenado)
 	*/
-	public static void heapsort (float[] vet) {
+	public static void heapsort (char[] vet) {
 		int tam;
 
 		//Construcao do heap

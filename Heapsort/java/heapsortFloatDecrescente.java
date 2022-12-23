@@ -1,4 +1,4 @@
-public class heapsortFloatCrescente {
+public class heapsortFloatDecrescente {
 	/*
 	* Descricao: essa funcao troca dois elementos de um vetor de reais
 	* Parametros: um vetor de reais (vetor que tera os 
@@ -37,7 +37,7 @@ public class heapsortFloatCrescente {
 		int indice = indice_pai(tam);
 		int i = tam;
 
-		while (i > 0 && vet[i] > vet[indice]) {
+		while (i > 0 && vet[i] < vet[indice]) {
 			swap (vet, i, indice);
 
 			i = indice_pai(i);
@@ -65,14 +65,14 @@ public class heapsortFloatCrescente {
 		//Verifica se ainda possui filhos
 		while(i <= meio) {
 			//Seleciona o maior filho
-			if (2*i+1 == tam || vet[2*i+1] > vet[2*i+2]) {
+			if (2*i+1 == tam || vet[2*i+1] < vet[2*i+2]) {
 				filho = 2*i+1;
 			} else {
 				filho = 2*i + 2;
 			}
 
 			//reconstroi o vetor
-			if (vet[i] < vet[filho]) {
+			if (vet[i] > vet[filho]) {
 				swap (vet, i, filho);
 				i = filho;
 			} else {
@@ -82,8 +82,8 @@ public class heapsortFloatCrescente {
 	}
 
 	/* 
-	* Descricao: essa funcao ordena um vetor de reais
-	* em ordem crescente com o metodo HeapSort
+	* Descricao: essa funcao ordena um vetor float
+	* em ordem decrescente com o metodo HeapSort
 	* 
 	* Parametro: um vetor de reais (vetor a ser ordenado)
 	*/

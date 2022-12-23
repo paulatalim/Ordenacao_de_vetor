@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 /*
 Descricao: esse procedimento troca dois elementos de um vetor

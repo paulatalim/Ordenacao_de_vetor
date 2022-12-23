@@ -51,8 +51,8 @@ public class heapsortDoubleCrescente {
 	}
 
 	/*
-	* Descricao: essa funcao reconstroi um vetor 
-	* de numeros de inteiros com a arvore heap ja construida 
+	* Descricao: essa funcao reconstroi um vetor de double
+	* com a arvore heap ja construida 
 	* 
 	* Parametros: vetor double (vetor a ser reconstruido) 
 	* e um inteiro (tamanho valido do vetor)

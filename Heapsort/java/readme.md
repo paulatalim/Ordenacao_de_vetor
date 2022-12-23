@@ -4,20 +4,20 @@
 
 - *Vetor de Inteiros*
     - [Crecente](heapsortIntCrescente.java)
-    - Decrecente (em breve)
+    - [Decrecente](heapsortIntDecrescente.java)
 
 - *Vetor Float*
     - [Crecente](heapsortFloatCrescente.java)
-    - Decrecente (em breve)
+    - [Decrecente](heapsortFloatDecrescente.java)
 
 - *Vetor Double*
     - [Crecente](heapsortDoubleCrescente.java)
-    - Decrecente (em breve)
+    - [Decrecente](heapsortDoubleDecrescente.java)
 
 - *Vetor de Caracteres*
     - [Crecente](heapsortCharCrescente.java)
-    - Decrecente (em breve)
+    - [Decrecente](heapsortCharDecrescente.java)
 
 - *Vetor de string*
     - [Crecente](heapsortStringCrescente.java)
-    - Decrecente (em breve)
+    - [Decrecente](heapsortStringDecrescente.java)
