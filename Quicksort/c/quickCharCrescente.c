@@ -2,27 +2,28 @@
 #include <stdlib.h>
 
 /*
-Descricao: essa funcao troca dois elementos de um vetor de inteiros
-Parametros: um vetor de inteiros (vetor que tera os 
+Descricao: essa funcao troca dois elementos de um vetor de caracteres
+Parametros: um vetor de caracteres (vetor que tera os 
 elementos trocados) e dois inteiros (indice dos 
 dois elementos a serem trocados)
 */
-void swap (int vet[], int i, int j) {
-    int aux = vet[i];
+void swap (char vet[], int i, int j) {
+    char aux = vet[i];
     vet[i] = vet[j];
     vet[j] = aux;
 }
 
 /* 
-Descricao: esse procedimento ordena um vetor de inteiros 
-em ordem crescente com o metodo quicksort
+Descricao: esse procedimento ordena um vetor de caracteres 
+em ordem alfabetica com o metodo quicksort
 
-Parametro: um vetor de inteiros (vetor a ser ordenado) 
+Parametro: um vetor de caracteres (vetor a ser ordenado) 
 e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 */
-void quick (int vet[], int esq, int dir) {
+void quick (char vet[], int esq, int dir) {
     int i, j, posicao;
-    int pivo;
+    char pivo;
+
     i = esq;
     j = dir;
     posicao = (esq + dir) / 2;
@@ -56,12 +57,12 @@ void quick (int vet[], int esq, int dir) {
 
 /*
 Descricao: esse procedimento chama pelo procedimento quick 
-para ordena o vetor em ordem crescente, possuindo 
+para ordena o vetor em ordem alfabetica, possuindo 
 argumentos mais simplificados
 
-Parametro: um vetor de inteiros (vetor a ser ordenado) 
+Parametro: um vetor de caracteres (vetor a ser ordenado) 
 e um inteiro (quantidade de numeros validos dentro do vetor)
 */
-void quicksort (int vet[], int n) {
+void quicksort (char vet[], int n) {
     quick(vet, 0, n-1);
 }
