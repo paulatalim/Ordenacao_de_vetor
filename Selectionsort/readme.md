@@ -15,7 +15,7 @@ Nesse diretório há códigos, os quais executam o selectionsort, ordenando vár
 - [Java](./java/selectionIntCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/selectionIntDecrescente.c)
 - C++ (em breve)
 - [Java](./java/selectionIntDecrescente.java)
 </details>
@@ -24,12 +24,12 @@ Nesse diretório há códigos, os quais executam o selectionsort, ordenando vár
 <summary>Ordenando vetor Float</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/selectionFloatCrescente.c)
 - C++ (em breve)
 - [Java](./java/selectionFloatCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/selectionFloatDecrescente.c)
 - C++ (em breve)
 - [Java](./java/selectionFloatDecrescente.java)
 </details>
@@ -38,12 +38,12 @@ Nesse diretório há códigos, os quais executam o selectionsort, ordenando vár
 <summary>Ordenando vetor Double</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/selectionDoubleCrescente.c)
 - C++ (em breve)
 - [Java](./java/selectionDoubleCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/selectionDoubleDecrescente.c)
 - C++ (em breve)
 - [Java](./java/selectionDoubleDecrescente.java)
 </details>
@@ -52,12 +52,12 @@ Nesse diretório há códigos, os quais executam o selectionsort, ordenando vár
 <summary>Ordenando vetor de caracteres</summary>
 
 ### *Ordem crescente*
-- C (em breve)
+- [C](./c/selectionCharCrescente.c)
 - C++ (em breve)
 - [Java](./java/selectionCharCrescente.java)
 
 ### *Ordem decrescente*
-- C (em breve)
+- [C](./c/selectionCharDecrescente.c)
 - C++ (em breve)
 - [Java](./java/selectionCharDecrescente.java)
 </details> 
