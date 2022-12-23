@@ -28,9 +28,9 @@ public class heapsortStringCrescente {
 	}
 
 	/* 
-	* Descricao: essa funcao constroi o heap de um vetor double
+	* Descricao: essa funcao constroi o heap de um vetor de strings
 	* 
-	* Parametros: um vetor double (vetor a ser construido 
+	* Parametros: um vetor de strings (vetor a ser construido 
 	* a arvore heap) e um inteiro (tamanho valido do vetor)
 	*/
 	public static void construir (String[] vet, int tam) {
@@ -51,10 +51,10 @@ public class heapsortStringCrescente {
 	}
 
 	/*
-	* Descricao: essa funcao reconstroi um vetor 
-	* de numeros double com a arvore heap ja construida 
+	* Descricao: essa funcao reconstroi um vetor de strings
+	* com a arvore heap ja construida 
 	* 
-	* Parametros: vetor double (vetor a ser reconstruido) 
+	* Parametros: vetor de strings (vetor a ser reconstruido) 
 	* e um inteiro (tamanho valido do vetor)
 	*/
 	public static void reconstruir (String[] vet, int tam) {

@@ -1,4 +1,4 @@
-public class heapsortCharCrescente {
+public class heapsortCharDecrescente {
 	/*
 	* Descricao: essa funcao troca dois elementos de um vetor de caracteres
 	* Parametros: um vetor de caracteres (vetor que tera os 
@@ -37,7 +37,7 @@ public class heapsortCharCrescente {
 		int indice = indice_pai(tam);
 		int i = tam;
 
-		while (i > 0 && vet[i] > vet[indice]) {
+		while (i > 0 && vet[i] < vet[indice]) {
 			swap (vet, i, indice);
 
 			i = indice_pai(i);
@@ -51,8 +51,8 @@ public class heapsortCharCrescente {
 	}
 
 	/*
-	* Descricao: essa funcao reconstroi um vetor 
-	* de numeros de inteiros com a arvore heap ja construida 
+	* Descricao: essa funcao reconstroi um vetor de caracteres
+	* com a arvore heap ja construida 
 	* 
 	* Parametros: vetor de caracteres (vetor a ser reconstruido) 
 	* e um inteiro (tamanho valido do vetor)
@@ -65,14 +65,14 @@ public class heapsortCharCrescente {
 		//Verifica se ainda possui filhos
 		while(i <= meio) {
 			//Seleciona o maior filho
-			if (2*i+1 == tam || vet[2*i+1] > vet[2*i+2]) {
+			if (2*i+1 == tam || vet[2*i+1] < vet[2*i+2]) {
 				filho = 2*i+1;
 			} else {
 				filho = 2*i + 2;
 			}
 
 			//reconstroi o vetor
-			if (vet[i] < vet[filho]) {
+			if (vet[i] > vet[filho]) {
 				swap (vet, i, filho);
 				i = filho;
 			} else {
@@ -82,8 +82,8 @@ public class heapsortCharCrescente {
 	}
 
 	/* 
-	* Descricao: essa funcao ordena um vetor com numeros 
-	* do tipo inteiro em ordem alfabetica com o metodo HeapSort
+	* Descricao: essa funcao ordena um vetor de caracteres
+	* em ordem decrescente com o metodo HeapSort
 	* 
 	* Parametro: um vetor de caracteres (vetor a ser ordenado)
 	*/

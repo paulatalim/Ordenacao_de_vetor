@@ -1,4 +1,4 @@
-public class heapsortStringCrescente {
+public class heapsortStringDecrescente {
 	/*
 	* Descricao: essa funcao troca dois elementos de um vetor com strings
 	* Parametros: um vetor de strings (vetor que tera os 
@@ -28,16 +28,16 @@ public class heapsortStringCrescente {
 	}
 
 	/* 
-	* Descricao: essa funcao constroi o heap de um vetor double
+	* Descricao: essa funcao constroi o heap de um vetor de strings
 	* 
-	* Parametros: um vetor double (vetor a ser construido 
+	* Parametros: um vetor de strings (vetor a ser construido 
 	* a arvore heap) e um inteiro (tamanho valido do vetor)
 	*/
 	public static void construir (String[] vet, int tam) {
 		int indice = indice_pai(tam);
 		int i = tam;
 
-		while (i > 0 && vet[i].toUpperCase().compareTo(vet[indice].toUpperCase()) > 0) {
+		while (i > 0 && vet[i].toUpperCase().compareTo(vet[indice].toUpperCase()) < 0) {
 			swap (vet, i, indice);
 
 			i = indice_pai(i);
@@ -51,10 +51,10 @@ public class heapsortStringCrescente {
 	}
 
 	/*
-	* Descricao: essa funcao reconstroi um vetor 
-	* de numeros double com a arvore heap ja construida 
+	* Descricao: essa funcao reconstroi um vetor de strings
+	* com a arvore heap ja construida 
 	* 
-	* Parametros: vetor double (vetor a ser reconstruido) 
+	* Parametros: vetor de strings (vetor a ser reconstruido) 
 	* e um inteiro (tamanho valido do vetor)
 	*/
 	public static void reconstruir (String[] vet, int tam) {
@@ -65,14 +65,14 @@ public class heapsortStringCrescente {
 		//Verifica se ainda possui filhos
 		while(i <= meio) {
 			//Seleciona o maior filho
-			if (2*i+1 == tam || vet[2*i+1].toUpperCase().compareTo(vet[2*i+2].toUpperCase()) > 0) {
+			if (2*i+1 == tam || vet[2*i+1].toUpperCase().compareTo(vet[2*i+2].toUpperCase()) < 0) {
 				filho = 2*i+1;
 			} else {
 				filho = 2*i + 2;
 			}
 
 			//reconstroi o vetor
-			if (vet[i].toUpperCase().compareTo(vet[filho].toUpperCase()) < 0) {
+			if (vet[i].toUpperCase().compareTo(vet[filho].toUpperCase()) > 0) {
 				swap (vet, i, filho);
 				i = filho;
 			} else {
@@ -83,7 +83,7 @@ public class heapsortStringCrescente {
 
 	/* 
 	* Descricao: essa funcao ordena um vetor de string 
-	* em ordem alfabetica com o metodo HeapSort
+	* em ordem decrescente com o metodo HeapSort
 	* 
 	* Parametro: um vetor de string (vetor a ser ordenado)
 	*/

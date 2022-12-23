@@ -51,8 +51,8 @@ public class heapsortCharCrescente {
 	}
 
 	/*
-	* Descricao: essa funcao reconstroi um vetor 
-	* de numeros de inteiros com a arvore heap ja construida 
+	* Descricao: essa funcao reconstroi um vetor de caracteres
+	* com a arvore heap ja construida 
 	* 
 	* Parametros: vetor de caracteres (vetor a ser reconstruido) 
 	* e um inteiro (tamanho valido do vetor)
@@ -82,8 +82,8 @@ public class heapsortCharCrescente {
 	}
 
 	/* 
-	* Descricao: essa funcao ordena um vetor com numeros 
-	* do tipo inteiro em ordem alfabetica com o metodo HeapSort
+	* Descricao: essa funcao ordena um vetor de caracteres
+	* em ordem alfabetica com o metodo HeapSort
 	* 
 	* Parametro: um vetor de caracteres (vetor a ser ordenado)
 	*/
