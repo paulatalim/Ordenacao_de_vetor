@@ -1,4 +1,4 @@
-public class heapsortIntCrescente {
+public class heapsortIntDecrescente {
 	/*
 	* Descricao: essa funcao troca dois elementos de um vetor de inteiros
 	* Parametros: um vetor de inteiros (vetor que tera os 
@@ -21,7 +21,7 @@ public class heapsortIntCrescente {
 
 		filho /= 2;
 
-		if (flag %2 == 0) {
+		if (flag % 2 == 0) {
 			filho --;
 		}
 		return filho;
@@ -37,7 +37,7 @@ public class heapsortIntCrescente {
 		int indice = indice_pai(tam);
 		int i = tam;
 
-		while (i > 0 && vet[i] > vet[indice]) {
+		while (i > 0 && vet[i] < vet[indice]) {
 			swap (vet, i, indice);
 
 			i = indice_pai(i);
@@ -65,14 +65,14 @@ public class heapsortIntCrescente {
 		//Verifica se ainda possui filhos
 		while(i <= meio) {
 			//Seleciona o maior filho
-			if (2*i+1 == tam || vet[2*i+1] > vet[2*i+2]) {
+			if (2*i+1 == tam || vet[2*i+1] < vet[2*i+2]) {
 				filho = 2*i+1;
 			} else {
 				filho = 2*i + 2;
 			}
 
 			//reconstroi o vetor
-			if (vet[i] < vet[filho]) {
+			if (vet[i] > vet[filho]) {
 				swap (vet, i, filho);
 				i = filho;
 			} else {
@@ -83,7 +83,7 @@ public class heapsortIntCrescente {
 
 	/* 
 	* Descricao: essa funcao ordena um vetor com numeros 
-	* do tipo inteiro em ordem crescente com o metodo HeapSort
+	* do tipo inteiro em ordem decrescente com o metodo HeapSort
 	* 
 	* Parametro: um vetor de inteiros (vetor a ser ordenado)
 	*/
