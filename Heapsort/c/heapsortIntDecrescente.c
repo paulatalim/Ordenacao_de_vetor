@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 /*
 Descricao: esse procedimento troca dois elementos de um vetor
@@ -25,7 +24,7 @@ int indice_pai (int filho) {
 
     filho /= 2;
 
-    if (flag %2 == 0) {
+    if (flag % 2 == 0) {
         filho --;
     }
     return filho;
@@ -41,7 +40,7 @@ void construir (int vet[], int tam) {
     int indice = indice_pai(tam);
     int i = tam;
 
-    while (i > 0 && vet[i] > vet[indice]) {
+    while (i > 0 && vet[i] < vet[indice]) {
         swap (vet, i, indice);
 
         i = indice_pai(i);
@@ -68,15 +67,15 @@ void reconstruir (int vet[], int tam) {
 
     //Verifica se ainda possui filhos
     while(i <= meio) {
-        //Seleciona o maior filho
-        if (2 * i + 1 == tam || vet[2 * i + 1] > vet[2 * i + 2]) {
+        //Seleciona o menor filho
+        if (2 * i + 1 == tam || vet[2 * i + 1] < vet[2 * i + 2]) {
             filho = 2 * i + 1;
         } else {
             filho = 2 * i + 2;
         }
 
         //Reconstroi o vetor
-        if (vet[i] < vet[filho]) {
+        if (vet[i] > vet[filho]) {
             swap (vet, i, filho);
             i = filho;
         } else {
@@ -87,7 +86,7 @@ void reconstruir (int vet[], int tam) {
 
 /* 
 Descricao: esse procedimento ordena um vetor com numeros 
-inteiros em ordem crescente com o metodo HeapSort
+inteiros em ordem decrescente com o metodo HeapSort
 
 Parametro: um vetor de inteiros (vetor a ser ordenado)
 */
