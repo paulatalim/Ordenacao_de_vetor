@@ -19,8 +19,8 @@ void intercalar (string vet[], int esq, int meio, int dir) {
 	string arrayDir[nDir+1];
 
 	//Sentinela no final dos dois arrays
-	arrayEsq[nEsq] = "zzzzzzzzzzzzzzzzzzzzzzzzz";
-	arrayDir[nDir] = "zzzzzzzzzzzzzzzzzzzzzzzzz";
+	arrayEsq[nEsq] = "AAAAAAAAAAAAAAAAAAAAAAAAAA";
+	arrayDir[nDir] = "AAAAAAAAAAAAAAAAAAAAAAAAAA";
 
 	int iEsq, iDir, i;
 
@@ -36,7 +36,7 @@ void intercalar (string vet[], int esq, int meio, int dir) {
 
 	//Intercalacao propriamente dita
 	for (iEsq = 0, iDir = 0, i = esq; i <= dir; i++){
-		if (arrayEsq[iEsq].compare(arrayDir[iDir]) <= 0) {
+		if (arrayEsq[iEsq].compare(arrayDir[iDir]) >= 0) {
 			vet[i] = arrayEsq[iEsq];
 			iEsq++;
 		} else {
@@ -48,7 +48,7 @@ void intercalar (string vet[], int esq, int meio, int dir) {
 
 /* 
 Descricao: essa funcao ordena um vetor de strings 
-em ordem crescente com o metodo mergesort
+em ordem decrescente com o metodo mergesort
 
 Parametro: um vetor de strings (vetor a ser ordenado)
 e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
@@ -64,7 +64,7 @@ void merge (string vet[], int esq, int dir) {
 
 /*
 Descricao: essa funcao chama pela funcao merge 
-para ordena o vetor em ordem crescente, possuindo 
+para ordena o vetor em ordem decrescente, possuindo 
 argumentos mais simplificados
 
 Parametro: um vetor de strings (vetor a ser ordenado)
