@@ -66,11 +66,11 @@ Nesse diretório há códigos, os quais executam o mergesort, ordenando vários 
 <summary>Ordenando vetor de Strings</summary>
 
 ### *Ordem crescente*
-- C++ (em breve)
+- [C++](./cpp/mergeStringCrescente.cpp)
 - [Java](./java/mergeStringCrescente.java)
 
 ### *Ordem decrescente*
-- C++ (em breve)
+- [C++](./cpp/mergeStringDecrescente.cpp)
 - [Java](./java/mergeStringDecrescente.java)
 </details>
 

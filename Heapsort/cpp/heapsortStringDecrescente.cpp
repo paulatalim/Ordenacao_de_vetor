@@ -1,14 +1,16 @@
 #include <iostream>
 
+using namespace std;
+
 /*
 Descricao: esse procedimento troca dois elementos de um vetor
 
-Parametros: um vetor double (vetor que tera os 
+Parametros: um vetor de strings (vetor que tera os 
 elementos trocados) e dois inteiros (indice dos 
 dois elementos a serem trocados)
 */
-void swap (double vet[], int i, int j) {
-    double aux = vet[i];
+void swap (string vet[], int i, int j) {
+    string aux = vet[i];
     vet[i] = vet[j];
     vet[j] = aux;
 }
@@ -30,16 +32,16 @@ int indice_pai (int filho) {
 }
 
 /* 
-Descricao: esse procedimento constroi o heap de um vetor double
+Descricao: esse procedimento constroi o heap de um vetor de strings
 
-Parametros: um vetor double (vetor a ser construido 
+Parametros: um vetor de strings (vetor a ser construido 
 a arvore heap) e um inteiro (tamanho valido do vetor)
 */
-void construir (double vet[], int tam) {
+void construir (string vet[], int tam) {
     int indice = indice_pai(tam);
     int i = tam;
 
-    while (i > 0 && vet[i] < vet[indice]) {
+    while (i > 0 && vet[i].compare(vet[indice]) < 0) {
         swap (vet, i, indice);
 
         i = indice_pai(i);
@@ -54,27 +56,27 @@ void construir (double vet[], int tam) {
 
 /*
 Descricao: esse procedimento reconstroi um vetor 
-de numeros inteiros com a arvore heap ja construida 
+de strings com a arvore heap ja construida 
 
-Parametros: vetor double (vetor a ser reconstruido) 
+Parametros: vetor de strings (vetor a ser reconstruido) 
 e um inteiro (tamanho valido do vetor)
 */
-void reconstruir (double vet[], int tam) {
+void reconstruir (string vet[], int tam) {
     int filho;
     int meio = indice_pai(tam);
     int i = 0;
 
     //Verifica se ainda possui filhos
     while(i <= meio) {
-        //Seleciona o menor filho
-        if (2 * i + 1 == tam || vet[2 * i + 1] < vet[2 * i + 2]) {
+        //Seleciona o maior filho
+        if (2 * i + 1 == tam || vet[2 * i + 1].compare(vet[2 * i + 2]) < 0) {
             filho = 2 * i + 1;
         } else {
             filho = 2 * i + 2;
         }
 
         //Reconstroi o vetor
-        if (vet[i] > vet[filho]) {
+        if (vet[i].compare(vet[filho]) > 0) {
             swap (vet, i, filho);
             i = filho;
         } else {
@@ -84,22 +86,21 @@ void reconstruir (double vet[], int tam) {
 }
 
 /* 
-Descricao: esse procedimento ordena um vetor com numeros 
-inteiros em ordem decrescente com o metodo HeapSort
+Descricao: esse procedimento ordena um vetor de strings 
+em ordem decrescente com o metodo HeapSort
 
-Parametro: um vetor double (vetor a ser ordenado)
-e um inteiro (tamanho do vetor)
+Parametro: um vetor de strings (vetor a ser ordenado)
 */
-void heapsort (double vet[], int n) {
+void heapsort (string vet[]) {
     int tam;
 
     //Construcao do heap
-    for (tam = 1; tam < n; tam++) {
+    for (tam = 1; tam < vet->length(); tam++) {
         construir(vet, tam);
     }
 
     //Ordenacao do vetor
-    tam = n - 1;
+    tam = vet->length() - 1;
     while (tam > 0) {
         swap(vet, 0, tam--);
         reconstruir(vet, tam);

@@ -66,11 +66,11 @@ Nesse diretório há códigos, os quais executam o selectionsort, ordenando vár
 <summary>Ordenando vetor de Strings</summary>
 
 ### *Ordem crescente*
-- C++ (em breve)
+- [C++](./cpp/selectionStringCrescente.cpp)
 - [Java](./java/selectionStringCrescente.java)
 
 ### *Ordem decrescente*
-- C++ (em breve)
+- [C++](./cpp/selectionStringDecrescente.cpp)
 - [Java](./java/selectionStringDecrescente.java)
 </details>
 

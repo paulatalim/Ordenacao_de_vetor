@@ -68,11 +68,11 @@ Nesse diretório há códigos, os quais executam o heapsort, ordenando vários t
 <summary>Ordenando vetor de Strings</summary>
 
 ### *Ordem crescente*
-- C++ (em breve)
+- [C++](./cpp/heapsortStringCrescente.cpp)
 - [Java](./java/heapsortStringCrescente.java)
 
 ### *Ordem decrescente*
-- C++ (em breve)
+- [C++](./cpp/heapsortStringDecrescente.cpp)
 - [Java](./java/heapsortStringDecrescente.java)
 </details>
 
