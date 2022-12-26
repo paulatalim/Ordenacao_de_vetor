@@ -17,7 +17,7 @@ void swap (string vet[], int i, int j) {
 
 /* 
 Descricao: esse procedimento ordena um vetor de string
-em ordem crescente com o metodo bubblesort
+em ordem decrescente com o metodo bubblesort
 
 Parametro: um vetor de string (vetor a ser ordenado) 
 e um inteiro (tamanho do vetor)
@@ -25,7 +25,7 @@ e um inteiro (tamanho do vetor)
 void bubblesort (string vet[]) {
     for (int i = vet->length() - 1; i > 0; i--) {
         for (int j = 0; j < i; j++) {
-            if (vet[j].compare(vet[j+1]) > 0) {
+            if (vet[j].compare(vet[j+1]) < 0) {
                 swap(vet, j, j+1);
             }
         }
