@@ -41,7 +41,7 @@ void construir (string vet[], int tam) {
     int indice = indice_pai(tam);
     int i = tam;
 
-    while (i > 0 && vet[i].compare(vet[indice]) > 0) {
+    while (i > 0 && vet[i].compare(vet[indice]) < 0) {
         swap (vet, i, indice);
 
         i = indice_pai(i);
@@ -69,14 +69,14 @@ void reconstruir (string vet[], int tam) {
     //Verifica se ainda possui filhos
     while(i <= meio) {
         //Seleciona o maior filho
-        if (2 * i + 1 == tam || vet[2 * i + 1].compare(vet[2 * i + 2]) > 0) {
+        if (2 * i + 1 == tam || vet[2 * i + 1].compare(vet[2 * i + 2]) < 0) {
             filho = 2 * i + 1;
         } else {
             filho = 2 * i + 2;
         }
 
         //Reconstroi o vetor
-        if (vet[i].compare(vet[filho]) < 0) {
+        if (vet[i].compare(vet[filho]) > 0) {
             swap (vet, i, filho);
             i = filho;
         } else {
@@ -87,7 +87,7 @@ void reconstruir (string vet[], int tam) {
 
 /* 
 Descricao: esse procedimento ordena um vetor de strings 
-em ordem alfabetica com o metodo HeapSort
+em ordem decrescente com o metodo HeapSort
 
 Parametro: um vetor de strings (vetor a ser ordenado)
 */
