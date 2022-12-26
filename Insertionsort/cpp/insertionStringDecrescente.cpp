@@ -4,7 +4,7 @@ using namespace std;
 
 /* 
 Descricao: essa funcao ordena um vetor de inteiros
-em ordem crescente com o metodo insertionsort
+em ordem decrescente com o metodo insertionsort
 
 Parametro: um vetor de inteiros (vetor a ser ordenado)
 */
@@ -13,7 +13,7 @@ void insertionsort (string vet[]) {
 		string temp = vet[i];
 		int j = i - 1;
 
-		while (j>=0 && vet[j].compare(temp) > 0) {
+		while (j>=0 && vet[j].compare(temp) < 0) {
 			vet[j+1] = vet[j];
 			j--;
 		}
