@@ -88,6 +88,7 @@ Descricao: esse procedimento ordena um vetor double
 em ordem crescente com o metodo HeapSort
 
 Parametro: um vetor double (vetor a ser ordenado)
+e um inteiro (tamanho do vetor)
 */
 void heapsort (double vet[], int n) {
     int tam;

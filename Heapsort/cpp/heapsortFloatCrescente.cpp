@@ -88,6 +88,7 @@ Descricao: esse procedimento ordena um vetor de reais
 em ordem crescente com o metodo HeapSort
 
 Parametro: um vetor de reais (vetor a ser ordenado)
+e um inteiro (tamanho do vetor)
 */
 void heapsort (float vet[], int n) {
     int tam;

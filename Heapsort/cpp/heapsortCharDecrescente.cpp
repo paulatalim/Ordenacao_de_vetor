@@ -88,6 +88,7 @@ Descricao: esse procedimento ordena um vetor com numeros
 inteiros em ordem decrescente com o metodo HeapSort
 
 Parametro: um vetor de caracteres (vetor a ser ordenado)
+e um inteiro (tamanho do vetor)
 */
 void heapsort (char vet[], int n) {
     int tam;
