@@ -1,27 +1,29 @@
 #include <iostream>
 
+using namespace std;
+
 /*
-Descricao: essa funcao troca dois elementos de um vetor de inteiros
-Parametros: um vetor de inteiros (vetor que tera os 
+Descricao: essa funcao troca dois elementos de um vetor de strings
+Parametros: um vetor de strings (vetor que tera os 
 elementos trocados) e dois inteiros (indice dos 
 dois elementos a serem trocados)
 */
-void swap (int vet[], int i, int j) {
-    int aux = vet[i];
+void swap (string vet[], int i, int j) {
+    string aux = vet[i];
     vet[i] = vet[j];
     vet[j] = aux;
 }
 
 /* 
-Descricao: esse procedimento ordena um vetor de inteiros 
-em ordem crescente com o metodo quicksort
+Descricao: esse procedimento ordena um vetor de strings 
+em ordem alfabetica com o metodo quicksort
 
-Parametro: um vetor de inteiros (vetor a ser ordenado) 
+Parametro: um vetor de strings (vetor a ser ordenado) 
 e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 */
-void quick (int vet[], int esq, int dir) {
+void quick (string vet[], int esq, int dir) {
     int i, j, posicao;
-    int pivo;
+    string pivo;
     
     i = esq;
     j = dir;
@@ -29,11 +31,11 @@ void quick (int vet[], int esq, int dir) {
     pivo = vet[posicao];
 
     while (i <= j) {
-        while (vet[i] < pivo) {
+        while (vet[i].compare(pivo) < 0) {
             i ++;
         }
 
-        while (vet[j] > pivo) {
+        while (vet[j].compare(pivo) > 0) {
             j --;
         }
 
@@ -56,12 +58,11 @@ void quick (int vet[], int esq, int dir) {
 
 /*
 Descricao: esse procedimento chama pelo procedimento quick 
-para ordena o vetor em ordem crescente, possuindo 
+para ordena o vetor em ordem alfabetica, possuindo 
 argumentos mais simplificados
 
-Parametro: um vetor de inteiros (vetor a ser ordenado) 
-e um inteiro (quantidade de numeros validos dentro do vetor)
+Parametro: um vetor de strings (vetor a ser ordenado) 
 */
-void quicksort (int vet[], int n) {
-    quick(vet, 0, n-1);
+void quicksort (string vet[]) {
+    quick(vet, 0, vet->length()-1);
 }
