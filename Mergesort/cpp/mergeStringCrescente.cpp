@@ -1,24 +1,26 @@
 #include <iostream>
 
+using namespace std;
+
 /*
-Descricao: apartir de um vetor de inteiros, essa 
+Descricao: apartir de um vetor de strings, essa 
 funcao subdivide o vetor em outros dois e intercala 
 seus elementos entre si no vetor principal
 
-Parametros: um vetor de inteiros (vetor a ser intercalado) e 
+Parametros: um vetor de strings (vetor a ser intercalado) e 
 3 inteiros (o primeiro, o ultimo e o indice do elemento do 
 meio do vetor)
 */
-void intercalar (int vet[], int esq, int meio, int dir) {
+void intercalar (string vet[], int esq, int meio, int dir) {
 	int nEsq = (meio - esq) + 1;
 	int nDir = dir - meio;
 
-	int arrayEsq[nEsq+1];
-	int arrayDir[nDir+1];
+	string arrayEsq[nEsq+1];
+	string arrayDir[nDir+1];
 
 	//Sentinela no final dos dois arrays
-	arrayEsq[nEsq] = 0x7FFFFFFF;
-	arrayDir[nDir] = 0x7FFFFFFF;
+	arrayEsq[nEsq] = "zzzzzzzzzzzzzzzzzzzzzzzzz";
+	arrayDir[nDir] = "zzzzzzzzzzzzzzzzzzzzzzzzz";
 
 	int iEsq, iDir, i;
 
@@ -34,7 +36,7 @@ void intercalar (int vet[], int esq, int meio, int dir) {
 
 	//Intercalacao propriamente dita
 	for (iEsq = 0, iDir = 0, i = esq; i <= dir; i++){
-		if (arrayEsq[iEsq] <= arrayDir[iDir]) {
+		if (arrayEsq[iEsq].compare(arrayDir[iDir]) <= 0) {
 			vet[i] = arrayEsq[iEsq];
 			iEsq++;
 		} else {
@@ -45,13 +47,13 @@ void intercalar (int vet[], int esq, int meio, int dir) {
 }
 
 /* 
-Descricao: essa funcao ordena um vetor de inteiros 
+Descricao: essa funcao ordena um vetor de strings 
 em ordem crescente com o metodo mergesort
 
-Parametro: um vetor de inteiros (vetor a ser ordenado)
+Parametro: um vetor de strings (vetor a ser ordenado)
 e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
 */
-void merge (int vet[], int esq, int dir) {
+void merge (string vet[], int esq, int dir) {
 	if (esq < dir) {
 		int meio = (esq + dir) /2;
 		merge(vet, esq, meio);
@@ -65,9 +67,8 @@ Descricao: essa funcao chama pela funcao merge
 para ordena o vetor em ordem crescente, possuindo 
 argumentos mais simplificados
 
-Parametro: um vetor de inteiros (vetor a ser ordenado)
-e um inteiro (tamanho do vetor)
+Parametro: um vetor de strings (vetor a ser ordenado)
 */
-void mergesort (int vet[], int n) {
-	merge (vet, 0, n-1);
+void mergesort (string vet[]) {
+	merge (vet, 0, vet->length()-1);
 }
