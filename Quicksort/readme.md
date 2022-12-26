@@ -66,11 +66,11 @@ Nesse diretório há códigos, os quais executam o quicksort, ordenando vários 
 <summary>Ordenando vetor de Strings</summary>
 
 ### *Ordem crescente*
-- C++ (em breve)
+- [C++](./cpp/quickStringCrescente.cpp)
 - [Java](./java/quickStringCrescente.java)
 
 ### *Ordem decrescente*
-- C++ (em breve)
+- [C++](./cpp/quickStringDecrescente.cpp)
 - [Java](./java/quickStringDecrescente.java)
 </details>
 

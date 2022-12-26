@@ -66,11 +66,11 @@ Nesse diretório há códigos, os quais executam o Bubblesort, ordenando vários
 <summary>Ordenando vetor de Strings</summary>
 
 ### *Ordem crescente*
-- C++ (em breve)
+- [C++](./cpp/bubbleStringCrescente.cpp)
 - [Java](./java/bubbleStringCrescente.java)
 
 ### *Ordem decrescente*
-- C++ (em breve)
+- [C++](./cpp/bubbleStringDecrescente.cpp)
 - [Java](./java/bubbleStringDecrescente.java)
 </details>
 

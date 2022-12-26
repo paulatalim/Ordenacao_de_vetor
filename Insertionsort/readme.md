@@ -66,11 +66,11 @@ Nesse diretório há códigos, os quais executam o insertionsort, ordenando vár
 <summary>Ordenando vetor de Strings</summary>
 
 ### *Ordem crescente*
-- C++ (em breve)
+- [C++](./cpp/insertionStringCrescente.cpp)
 - [Java](./java/insertionStringCrescente.java)
 
 ### *Ordem decrescente*
-- C++ (em breve)
+- [C++](./cpp/insertionStringDecrescente.cpp)
 - [Java](./java/insertionStringDecrescente.java)
 </details>
 
