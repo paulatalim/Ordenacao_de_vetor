@@ -16,7 +16,7 @@ void swap (string vet[], int i, int j) {
 
 /* 
 Descricao: esse procedimento ordena um vetor de strings 
-em ordem alfabetica com o metodo quicksort
+em ordem decrescente com o metodo quicksort
 
 Parametro: um vetor de strings (vetor a ser ordenado) 
 e dois inteiros (indice do primeiro e do ultimo elemento do vetor)
@@ -31,11 +31,11 @@ void quick (string vet[], int esq, int dir) {
     pivo = vet[posicao];
 
     while (i <= j) {
-        while (vet[i].compare(pivo) < 0) {
+        while (vet[i].compare(pivo) > 0) {
             i ++;
         }
 
-        while (vet[j].compare(pivo) > 0) {
+        while (vet[j].compare(pivo) < 0) {
             j --;
         }
 
@@ -58,7 +58,7 @@ void quick (string vet[], int esq, int dir) {
 
 /*
 Descricao: esse procedimento chama pelo procedimento quick 
-para ordena o vetor em ordem alfabetica, possuindo 
+para ordena o vetor em ordem decrescente, possuindo 
 argumentos mais simplificados
 
 Parametro: um vetor de strings (vetor a ser ordenado) 
