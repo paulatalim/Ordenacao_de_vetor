@@ -3,7 +3,7 @@
 ## Sobre 
 Esse repósitório foi criado apartir da matéria de Algoritmos e Estrutura de Dados 2, a qual ensina métodos de ordenação para ordenar um vetor.
 
-Neste repositório possui diversos métodos, cada um com códigos em verões em C, C++ e Java para ordenar diferentes tipos de vetor em ordem crescente ou decrescente.
+Neste repositório possui diversos métodos, cada um com códigos em versões em C, C++ e Java para ordenar diferentes tipos de vetor em ordem crescente ou decrescente.
 
 ## Métodos Disponíveis
 - [Bubblesort](./Bubblesort)
