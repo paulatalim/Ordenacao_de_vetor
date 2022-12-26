@@ -16,22 +16,22 @@ void swap (string vet[], int i, int j) {
 
 /* 
 Descricao: essa funcao ordena um vetor de string
-em ordem alfabetica com o metodo selectionsort
+em ordem decrescente com o metodo selectionsort
 
 Parametro: um vetor de string (vetor a ser ordenado)
 */
 void selectionsort (string vet[]) {
 	for (int i = 0; i < vet->length()-1; i ++) {
-		int menor = i;
+		int maior = i;
 
 		for (int j = i + 1; j < vet->length(); j++) {
-			if (vet[menor].compare(vet[j]) > 0) {
-				menor = j;
+			if (vet[maior].compare(vet[j]) < 0) {
+				maior = j;
 			}
 		}
 
-		if (i != menor) {
-			swap(vet, i, menor);
+		if (i != maior) {
+			swap(vet, i, maior);
 		}
 	}
 }
